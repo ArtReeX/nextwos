@@ -1,7 +1,5 @@
 function showPageAuthorization() {
 
-    'use strict';
-
     $(document).ready(function () {
 
         // показ прелоадера

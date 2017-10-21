@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    'use strict';
-
     // обработчик нажатия кнопки входа
     $("#loaded").off("click", "#authorization-button-auth").on("click", "#authorization-button-auth", function () {
 
@@ -93,3 +91,6 @@ $(document).ready(function () {
     });
 
 });
+function newFunction() {
+    'use strict';
+}

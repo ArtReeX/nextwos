@@ -1,7 +1,5 @@
 function showPageReport() {
 
-    'use strict';
-
     $(document).ready(function () {
 
         // показ прелоадера

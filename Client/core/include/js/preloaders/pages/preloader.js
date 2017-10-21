@@ -1,7 +1,5 @@
 function showPagePreloader(errorType) {
 
-    'use strict';
-
     $(document).ready(function () {
 
         // отправка запроса на получение содержимого страницы

@@ -1,7 +1,5 @@
 function showPageAppPassKeeper() {
 
-    'use strict';
-
     $(document).ready(function () {
 
         // показ прелоадера

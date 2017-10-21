@@ -1,7 +1,5 @@
 function showPageIndex() {
 
-    'use strict';
-
     $(document).ready(function () {
 
         // показ прелоадера

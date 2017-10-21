@@ -1,7 +1,5 @@
 function showPageError(errorType) {
 
-    'use strict';
-
     $(document).ready(function () {
 
         // показ прелоадера

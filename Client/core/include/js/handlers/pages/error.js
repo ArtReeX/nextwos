@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    'use strict';
-
     // определение типа ошибки
     if (window.errorType === "connect_server") {
 

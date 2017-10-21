@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    'use strict';
-
     // обработчик нажатия кнопки входа
     $("#loaded").off("click", "#registration-button-reg").on("click", "#registration-button-reg", function () {
 

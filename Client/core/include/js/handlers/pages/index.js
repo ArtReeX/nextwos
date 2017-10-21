@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    'use strict';
-
     // подключение к серверу, если его нет
 
     if (typeof window.socket === "undefined") {
