@@ -1,1 +1,1 @@
-"next Web Operation System"
+"nextWOS - next Web Operation System"
