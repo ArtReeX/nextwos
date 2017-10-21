@@ -15,7 +15,7 @@ function showPageReport() {
 
                 dataType: "html",
 
-                async: false,
+                async: true,
 
                 success: function (html) {
 

@@ -15,7 +15,7 @@ function showPageError(errorType) {
 
                 dataType: "html",
 
-                async: false,
+                async: true,
 
                 success: function (html) {
 

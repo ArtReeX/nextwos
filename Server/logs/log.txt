@@ -371,3 +371,12 @@
 [2017-10-21 15:44:08.111] [TRACE] default - Sending method "resultAuthorizeUser" results to 0lmXFwk39yMORjXIAAAA:
 [2017-10-21 15:44:08.112] [TRACE] default - { error: null, data: { result_authorize: true } }
 [2017-10-21 15:44:35.382] [INFO] default - User 0lmXFwk39yMORjXIAAAA disconnected.
+[2017-10-21 18:46:16.312] [DEBUG] default - The server started on port 8181.
+[2017-10-21 18:46:16.316] [INFO] default - The server part was successfully started.
+[2017-10-21 18:46:16.323] [DEBUG] default - Database successfully verified.
+[2017-10-21 18:46:16.995] [INFO] default - User __pesr7fG4zZyPo2AAAA, IP: ::1 connected.
+[2017-10-21 18:46:23.119] [INFO] default - User __pesr7fG4zZyPo2AAAA get method "authorizeUser" (login: admin, password: root)
+[2017-10-21 18:46:23.182] [TRACE] default - Sending method "resultAuthorizeUser" results to __pesr7fG4zZyPo2AAAA:
+[2017-10-21 18:46:23.183] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-21 18:47:12.374] [INFO] default - User __pesr7fG4zZyPo2AAAA get method "deauthorizeUser"
+[2017-10-21 18:47:13.697] [INFO] default - User __pesr7fG4zZyPo2AAAA disconnected.

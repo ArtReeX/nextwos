@@ -15,7 +15,7 @@ function showPageAuthorization() {
 
                 dataType: "html",
 
-                async: false,
+                async: true,
 
                 success: function (html) {
 
