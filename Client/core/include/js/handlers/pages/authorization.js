@@ -91,6 +91,3 @@ $(document).ready(function () {
     });
 
 });
-function newFunction() {
-    'use strict';
-}
