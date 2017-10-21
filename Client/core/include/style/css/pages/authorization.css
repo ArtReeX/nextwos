@@ -1,0 +1,21 @@
+/************************ СТРАНИЦА ВХОДА ************************/
+
+
+/* лого */
+
+#authorization-logo img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+
+/* уведомления */
+
+#authorization-info-warning {
+    display: none;
+}
+
+#authorization-info-danger {
+    display: none;
+}

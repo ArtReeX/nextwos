@@ -1,0 +1,373 @@
+﻿[2017-10-19 22:32:41.775] [DEBUG] default - The server started on port 8181.
+[2017-10-19 22:32:41.778] [INFO] default - The server part was successfully started.
+[2017-10-19 22:32:41.782] [DEBUG] default - Database successfully verified.
+[2017-10-19 22:32:41.951] [INFO] default - User tdHjbdYa78Sx2K0dAAAA, IP: ::ffff:127.0.0.1 connected.
+[2017-10-19 22:35:04.871] [INFO] default - User tdHjbdYa78Sx2K0dAAAA disconnected.
+[2017-10-19 22:35:06.257] [INFO] default - User ksCZMwcrbY7acvHUAAAB, IP: ::1 connected.
+[2017-10-19 22:35:10.664] [INFO] default - User ksCZMwcrbY7acvHUAAAB get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:35:10.727] [TRACE] default - Sending method "resultAuthorizeUser" results to ksCZMwcrbY7acvHUAAAB:
+[2017-10-19 22:35:10.727] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:36:18.914] [INFO] default - User ksCZMwcrbY7acvHUAAAB disconnected.
+[2017-10-19 22:36:20.271] [INFO] default - User OtZ_ReDLokFT6MXcAAAC, IP: ::1 connected.
+[2017-10-19 22:36:26.594] [INFO] default - User OtZ_ReDLokFT6MXcAAAC get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:36:26.655] [TRACE] default - Sending method "resultAuthorizeUser" results to OtZ_ReDLokFT6MXcAAAC:
+[2017-10-19 22:36:26.655] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:36:44.490] [INFO] default - User OtZ_ReDLokFT6MXcAAAC disconnected.
+[2017-10-19 22:36:45.847] [INFO] default - User kWV_lMTR7ZBM36u7AAAD, IP: ::1 connected.
+[2017-10-19 22:36:50.300] [INFO] default - User kWV_lMTR7ZBM36u7AAAD get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:36:50.360] [TRACE] default - Sending method "resultAuthorizeUser" results to kWV_lMTR7ZBM36u7AAAD:
+[2017-10-19 22:36:50.361] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:37:07.426] [INFO] default - User kWV_lMTR7ZBM36u7AAAD disconnected.
+[2017-10-19 22:37:08.808] [INFO] default - User VYCthVOKg-ajZMQhAAAE, IP: ::1 connected.
+[2017-10-19 22:37:12.702] [INFO] default - User VYCthVOKg-ajZMQhAAAE get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:37:12.762] [TRACE] default - Sending method "resultAuthorizeUser" results to VYCthVOKg-ajZMQhAAAE:
+[2017-10-19 22:37:12.762] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:42:36.157] [INFO] default - User VYCthVOKg-ajZMQhAAAE disconnected.
+[2017-10-19 22:42:37.538] [INFO] default - User 5M-HoFyixoDHR2SyAAAF, IP: ::1 connected.
+[2017-10-19 22:42:42.807] [INFO] default - User 5M-HoFyixoDHR2SyAAAF get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:42:42.869] [TRACE] default - Sending method "resultAuthorizeUser" results to 5M-HoFyixoDHR2SyAAAF:
+[2017-10-19 22:42:42.869] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:43:49.262] [INFO] default - User 5M-HoFyixoDHR2SyAAAF disconnected.
+[2017-10-19 22:43:50.643] [INFO] default - User Hebja7ch4DqDxIiHAAAG, IP: ::1 connected.
+[2017-10-19 22:43:54.831] [INFO] default - User Hebja7ch4DqDxIiHAAAG get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:43:54.891] [TRACE] default - Sending method "resultAuthorizeUser" results to Hebja7ch4DqDxIiHAAAG:
+[2017-10-19 22:43:54.893] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:44:03.950] [INFO] default - User Hebja7ch4DqDxIiHAAAG disconnected.
+[2017-10-19 22:44:05.321] [INFO] default - User NIPi6pXL-LRjinIwAAAH, IP: ::1 connected.
+[2017-10-19 22:44:09.418] [INFO] default - User NIPi6pXL-LRjinIwAAAH get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:44:09.479] [TRACE] default - Sending method "resultAuthorizeUser" results to NIPi6pXL-LRjinIwAAAH:
+[2017-10-19 22:44:09.479] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:44:37.125] [INFO] default - User NIPi6pXL-LRjinIwAAAH disconnected.
+[2017-10-19 22:44:38.476] [INFO] default - User oSOFQEy-4XDxvy1IAAAI, IP: ::1 connected.
+[2017-10-19 22:44:44.442] [INFO] default - User oSOFQEy-4XDxvy1IAAAI get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:44:44.502] [TRACE] default - Sending method "resultAuthorizeUser" results to oSOFQEy-4XDxvy1IAAAI:
+[2017-10-19 22:44:44.503] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:45:12.177] [INFO] default - User oSOFQEy-4XDxvy1IAAAI disconnected.
+[2017-10-19 22:45:13.524] [INFO] default - User kFHtoW4UDukZ3EHZAAAJ, IP: ::1 connected.
+[2017-10-19 22:45:17.436] [INFO] default - User kFHtoW4UDukZ3EHZAAAJ get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:45:17.497] [TRACE] default - Sending method "resultAuthorizeUser" results to kFHtoW4UDukZ3EHZAAAJ:
+[2017-10-19 22:45:17.497] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:45:43.929] [INFO] default - User kFHtoW4UDukZ3EHZAAAJ disconnected.
+[2017-10-19 22:45:45.280] [INFO] default - User Ez9VPcflyGI7aQHxAAAK, IP: ::1 connected.
+[2017-10-19 22:45:53.454] [INFO] default - User Ez9VPcflyGI7aQHxAAAK get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:45:53.513] [TRACE] default - Sending method "resultAuthorizeUser" results to Ez9VPcflyGI7aQHxAAAK:
+[2017-10-19 22:45:53.515] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:46:40.032] [INFO] default - User Ez9VPcflyGI7aQHxAAAK disconnected.
+[2017-10-19 22:46:41.389] [INFO] default - User MsZc4sgZBUYwSVqeAAAL, IP: ::1 connected.
+[2017-10-19 22:46:46.399] [INFO] default - User MsZc4sgZBUYwSVqeAAAL get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:46:46.458] [TRACE] default - Sending method "resultAuthorizeUser" results to MsZc4sgZBUYwSVqeAAAL:
+[2017-10-19 22:46:46.459] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:47:52.967] [INFO] default - User MsZc4sgZBUYwSVqeAAAL disconnected.
+[2017-10-19 22:47:54.367] [INFO] default - User ZbxdrsogVzmpdCkUAAAM, IP: ::1 connected.
+[2017-10-19 22:47:58.531] [INFO] default - User ZbxdrsogVzmpdCkUAAAM get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:47:58.592] [TRACE] default - Sending method "resultAuthorizeUser" results to ZbxdrsogVzmpdCkUAAAM:
+[2017-10-19 22:47:58.594] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:48:15.913] [INFO] default - User ZbxdrsogVzmpdCkUAAAM disconnected.
+[2017-10-19 22:48:17.286] [INFO] default - User YsZoLgts5lA6C6vZAAAN, IP: ::1 connected.
+[2017-10-19 22:48:22.457] [INFO] default - User YsZoLgts5lA6C6vZAAAN get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:48:22.516] [TRACE] default - Sending method "resultAuthorizeUser" results to YsZoLgts5lA6C6vZAAAN:
+[2017-10-19 22:48:22.517] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:48:50.277] [INFO] default - User YsZoLgts5lA6C6vZAAAN disconnected.
+[2017-10-19 22:48:51.643] [INFO] default - User QNTihVs2dJFW_7HEAAAO, IP: ::1 connected.
+[2017-10-19 22:48:55.543] [INFO] default - User QNTihVs2dJFW_7HEAAAO get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:48:55.603] [TRACE] default - Sending method "resultAuthorizeUser" results to QNTihVs2dJFW_7HEAAAO:
+[2017-10-19 22:48:55.604] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:57:02.590] [DEBUG] default - The server started on port 8181.
+[2017-10-19 22:57:02.593] [INFO] default - The server part was successfully started.
+[2017-10-19 22:57:02.597] [DEBUG] default - Database successfully verified.
+[2017-10-19 22:57:04.206] [INFO] default - User goXtOr4-cgDWOYeyAAAA, IP: ::1 connected.
+[2017-10-19 22:57:10.912] [INFO] default - User goXtOr4-cgDWOYeyAAAA get method "authorizeUser" (login: admin, password: root)
+[2017-10-19 22:57:10.976] [TRACE] default - Sending method "resultAuthorizeUser" results to goXtOr4-cgDWOYeyAAAA:
+[2017-10-19 22:57:10.976] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 22:57:19.515] [INFO] default - User goXtOr4-cgDWOYeyAAAA get method "deauthorizeUser"
+[2017-10-19 22:57:30.364] [INFO] default - User goXtOr4-cgDWOYeyAAAA disconnected.
+[2017-10-19 23:13:12.499] [DEBUG] default - The server started on port 8181.
+[2017-10-19 23:13:12.502] [INFO] default - The server part was successfully started.
+[2017-10-19 23:13:12.507] [DEBUG] default - Database successfully verified.
+[2017-10-19 23:13:15.049] [INFO] default - User G-SaYsdFgK91c5TyAAAA, IP: ::1 connected.
+[2017-10-19 23:13:24.917] [INFO] default - User G-SaYsdFgK91c5TyAAAA get method "authorizeUser" (login: MAK54645, password: )
+[2017-10-19 23:13:24.918] [TRACE] default - Sending method "resultAuthorizeUser" results to G-SaYsdFgK91c5TyAAAA:
+[2017-10-19 23:13:24.918] [TRACE] default - { error: { type: 'empty_parameter' }, data: null }
+[2017-10-19 23:13:33.197] [INFO] default - User G-SaYsdFgK91c5TyAAAA get method "authorizeUser" (login: Adminrg, password: regre)
+[2017-10-19 23:13:33.200] [TRACE] default - Sending method "resultAuthorizeUser" results to G-SaYsdFgK91c5TyAAAA:
+[2017-10-19 23:13:33.200] [TRACE] default - { error: { type: 'user_not_exist' }, data: null }
+[2017-10-19 23:13:34.588] [INFO] default - User G-SaYsdFgK91c5TyAAAA get method "authorizeUser" (login: Adminr, password: regre)
+[2017-10-19 23:13:34.590] [TRACE] default - Sending method "resultAuthorizeUser" results to G-SaYsdFgK91c5TyAAAA:
+[2017-10-19 23:13:34.590] [TRACE] default - { error: { type: 'user_not_exist' }, data: null }
+[2017-10-19 23:13:35.107] [INFO] default - User G-SaYsdFgK91c5TyAAAA get method "authorizeUser" (login: Adminr, password: regre)
+[2017-10-19 23:13:35.109] [TRACE] default - Sending method "resultAuthorizeUser" results to G-SaYsdFgK91c5TyAAAA:
+[2017-10-19 23:13:35.109] [TRACE] default - { error: { type: 'user_not_exist' }, data: null }
+[2017-10-19 23:13:35.774] [INFO] default - User G-SaYsdFgK91c5TyAAAA get method "authorizeUser" (login: Adminr, password: regre)
+[2017-10-19 23:13:35.776] [TRACE] default - Sending method "resultAuthorizeUser" results to G-SaYsdFgK91c5TyAAAA:
+[2017-10-19 23:13:35.776] [TRACE] default - { error: { type: 'user_not_exist' }, data: null }
+[2017-10-19 23:13:39.232] [INFO] default - User G-SaYsdFgK91c5TyAAAA get method "authorizeUser" (login: Admin, password: regre)
+[2017-10-19 23:13:39.293] [TRACE] default - Sending method "resultAuthorizeUser" results to G-SaYsdFgK91c5TyAAAA:
+[2017-10-19 23:13:39.294] [TRACE] default - { error: { type: 'incorrect_password' }, data: null }
+[2017-10-19 23:13:47.583] [INFO] default - User G-SaYsdFgK91c5TyAAAA get method "authorizeUser" (login: Admin, password: root)
+[2017-10-19 23:13:47.646] [TRACE] default - Sending method "resultAuthorizeUser" results to G-SaYsdFgK91c5TyAAAA:
+[2017-10-19 23:13:47.648] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-19 23:14:12.608] [INFO] default - User G-SaYsdFgK91c5TyAAAA disconnected.
+[2017-10-20 01:35:20.216] [DEBUG] default - The server started on port 8181.
+[2017-10-20 01:35:20.219] [INFO] default - The server part was successfully started.
+[2017-10-20 01:35:20.226] [DEBUG] default - Database successfully verified.
+[2017-10-20 01:35:21.201] [INFO] default - User lxfhH1Zpy2Wp7vQEAAAA, IP: ::1 connected.
+[2017-10-20 01:35:22.723] [INFO] default - User lxfhH1Zpy2Wp7vQEAAAA disconnected.
+[2017-10-20 01:35:24.015] [INFO] default - User tXOXhQTSkbUdYUHSAAAB, IP: ::1 connected.
+[2017-10-20 03:52:43.898] [DEBUG] default - The server started on port 8181.
+[2017-10-20 03:52:43.901] [INFO] default - The server part was successfully started.
+[2017-10-20 03:52:43.905] [DEBUG] default - Database successfully verified.
+[2017-10-20 03:52:46.661] [INFO] default - User zljn1yN3phk9j5dIAAAA, IP: ::1 connected.
+[2017-10-20 03:53:10.699] [INFO] default - User zljn1yN3phk9j5dIAAAA disconnected.
+[2017-10-20 03:53:12.096] [INFO] default - User jqsvRFtH9aAbGPhTAAAB, IP: ::1 connected.
+[2017-10-20 03:53:17.942] [INFO] default - User jqsvRFtH9aAbGPhTAAAB disconnected.
+[2017-10-20 03:53:19.273] [INFO] default - User 2bWnTqohImd7pjqiAAAC, IP: ::1 connected.
+[2017-10-20 03:53:51.682] [INFO] default - User 2bWnTqohImd7pjqiAAAC disconnected.
+[2017-10-20 03:53:53.212] [INFO] default - User OP_hHqgSwqiE1ClrAAAD, IP: ::1 connected.
+[2017-10-20 03:54:04.359] [INFO] default - User OP_hHqgSwqiE1ClrAAAD disconnected.
+[2017-10-20 03:54:05.864] [INFO] default - User HO8ZHPw4YXJp-WwzAAAE, IP: ::1 connected.
+[2017-10-20 03:54:25.570] [INFO] default - User HO8ZHPw4YXJp-WwzAAAE disconnected.
+[2017-10-20 03:54:27.018] [INFO] default - User 2iCa3fAmLRmSmaqBAAAF, IP: ::1 connected.
+[2017-10-20 03:54:34.631] [INFO] default - User 2iCa3fAmLRmSmaqBAAAF disconnected.
+[2017-10-20 03:54:35.908] [INFO] default - User CUZOQuLE5tdL1bQDAAAG, IP: ::1 connected.
+[2017-10-20 03:54:56.527] [INFO] default - User CUZOQuLE5tdL1bQDAAAG disconnected.
+[2017-10-20 03:54:57.990] [INFO] default - User Yu-sNtCZnuVEgfjtAAAH, IP: ::1 connected.
+[2017-10-20 03:55:10.433] [INFO] default - User Yu-sNtCZnuVEgfjtAAAH disconnected.
+[2017-10-20 03:55:11.853] [INFO] default - User UzsO_YjFvqV8J8ZRAAAI, IP: ::1 connected.
+[2017-10-20 03:56:08.083] [INFO] default - User UzsO_YjFvqV8J8ZRAAAI disconnected.
+[2017-10-20 03:56:09.512] [INFO] default - User G73ogfShqq9-HbiGAAAJ, IP: ::1 connected.
+[2017-10-20 03:56:17.636] [INFO] default - User G73ogfShqq9-HbiGAAAJ disconnected.
+[2017-10-20 03:56:19.167] [INFO] default - User h7-lj2dxLy9o2NysAAAK, IP: ::1 connected.
+[2017-10-20 03:56:51.536] [INFO] default - User h7-lj2dxLy9o2NysAAAK disconnected.
+[2017-10-20 03:56:52.984] [INFO] default - User 2KurbbU3nV-7KMtCAAAL, IP: ::1 connected.
+[2017-10-20 03:57:03.552] [INFO] default - User 2KurbbU3nV-7KMtCAAAL disconnected.
+[2017-10-20 03:57:04.982] [INFO] default - User jiezox936Dy6TbhLAAAM, IP: ::1 connected.
+[2017-10-20 03:57:14.909] [INFO] default - User jiezox936Dy6TbhLAAAM disconnected.
+[2017-10-20 03:57:16.325] [INFO] default - User pR5cU53YlouYlY0DAAAN, IP: ::1 connected.
+[2017-10-20 03:59:18.509] [INFO] default - User pR5cU53YlouYlY0DAAAN disconnected.
+[2017-10-20 03:59:19.937] [INFO] default - User SKEtMFtC5CfzifPIAAAO, IP: ::1 connected.
+[2017-10-20 03:59:44.970] [INFO] default - User SKEtMFtC5CfzifPIAAAO disconnected.
+[2017-10-20 03:59:46.327] [INFO] default - User uv-eRgp6SydzEnEZAAAP, IP: ::1 connected.
+[2017-10-20 04:00:14.977] [INFO] default - User uv-eRgp6SydzEnEZAAAP disconnected.
+[2017-10-20 04:00:16.344] [INFO] default - User pgAmMLANeMhmeV_RAAAQ, IP: ::1 connected.
+[2017-10-20 04:01:23.777] [DEBUG] default - The server started on port 8181.
+[2017-10-20 04:01:23.780] [INFO] default - The server part was successfully started.
+[2017-10-20 04:01:23.784] [DEBUG] default - Database successfully verified.
+[2017-10-20 04:01:25.218] [INFO] default - User Cbke--yd0BE7_etvAAAA, IP: ::1 connected.
+[2017-10-20 04:03:43.130] [INFO] default - User Cbke--yd0BE7_etvAAAA disconnected.
+[2017-10-20 04:03:44.486] [INFO] default - User o671jTDQ26JgMd8VAAAB, IP: ::1 connected.
+[2017-10-20 04:03:59.463] [INFO] default - User o671jTDQ26JgMd8VAAAB disconnected.
+[2017-10-20 04:04:00.798] [INFO] default - User 8XifE319wvq0TYYfAAAC, IP: ::1 connected.
+[2017-10-20 04:04:07.478] [INFO] default - User 8XifE319wvq0TYYfAAAC disconnected.
+[2017-10-20 04:04:08.727] [INFO] default - User qDnS8XH755iqa50FAAAD, IP: ::1 connected.
+[2017-10-20 04:04:20.393] [INFO] default - User qDnS8XH755iqa50FAAAD disconnected.
+[2017-10-20 04:04:21.710] [INFO] default - User 6D-RM_EiPVgsvJe_AAAE, IP: ::1 connected.
+[2017-10-20 04:04:27.646] [INFO] default - User 6D-RM_EiPVgsvJe_AAAE disconnected.
+[2017-10-20 04:04:28.867] [INFO] default - User IzSHqMmd89PU2q-3AAAF, IP: ::1 connected.
+[2017-10-20 04:04:42.755] [INFO] default - User IzSHqMmd89PU2q-3AAAF disconnected.
+[2017-10-20 04:04:44.094] [INFO] default - User qw6zF3PRN5_ZmahEAAAG, IP: ::1 connected.
+[2017-10-20 04:05:54.981] [INFO] default - User qw6zF3PRN5_ZmahEAAAG disconnected.
+[2017-10-20 04:05:56.334] [INFO] default - User EwkvYxEFM98jH1TaAAAH, IP: ::1 connected.
+[2017-10-20 04:06:13.809] [INFO] default - User EwkvYxEFM98jH1TaAAAH disconnected.
+[2017-10-20 04:06:15.166] [INFO] default - User Z-4K0BAAqrrATCubAAAI, IP: ::1 connected.
+[2017-10-20 04:06:33.506] [INFO] default - User Z-4K0BAAqrrATCubAAAI disconnected.
+[2017-10-20 04:06:34.892] [INFO] default - User iSe8tRmdYfuKXRx7AAAJ, IP: ::1 connected.
+[2017-10-20 04:08:20.879] [INFO] default - User iSe8tRmdYfuKXRx7AAAJ disconnected.
+[2017-10-20 04:08:22.252] [INFO] default - User aqZv5gMgtXa5FVTEAAAK, IP: ::1 connected.
+[2017-10-20 04:09:08.426] [INFO] default - User aqZv5gMgtXa5FVTEAAAK disconnected.
+[2017-10-20 04:09:09.785] [INFO] default - User Wd1ErkWw391FK7PCAAAL, IP: ::1 connected.
+[2017-10-20 04:09:24.756] [INFO] default - User Wd1ErkWw391FK7PCAAAL disconnected.
+[2017-10-20 04:09:26.081] [INFO] default - User a3aIvKh4DL4SGJi5AAAM, IP: ::1 connected.
+[2017-10-20 04:09:39.432] [INFO] default - User a3aIvKh4DL4SGJi5AAAM disconnected.
+[2017-10-20 04:09:40.767] [INFO] default - User 9BNDjUWC2GO9yV_9AAAN, IP: ::1 connected.
+[2017-10-20 04:09:47.007] [INFO] default - User 9BNDjUWC2GO9yV_9AAAN disconnected.
+[2017-10-20 04:09:48.260] [INFO] default - User KCHyWy4UOUTVlZ5-AAAO, IP: ::1 connected.
+[2017-10-20 04:09:53.895] [INFO] default - User KCHyWy4UOUTVlZ5-AAAO disconnected.
+[2017-10-20 04:09:55.193] [INFO] default - User RGZwIobtJWyV2jh8AAAP, IP: ::1 connected.
+[2017-10-20 04:10:04.403] [INFO] default - User RGZwIobtJWyV2jh8AAAP disconnected.
+[2017-10-20 04:10:05.779] [INFO] default - User t1Z8ViyzJ1Yi2Uo8AAAQ, IP: ::1 connected.
+[2017-10-20 04:10:12.006] [INFO] default - User t1Z8ViyzJ1Yi2Uo8AAAQ disconnected.
+[2017-10-20 04:10:13.305] [INFO] default - User emqm_xMue60XFFKaAAAR, IP: ::1 connected.
+[2017-10-20 04:10:22.904] [INFO] default - User emqm_xMue60XFFKaAAAR disconnected.
+[2017-10-20 04:10:24.270] [INFO] default - User 9tzpI0v4ktLnPXFBAAAS, IP: ::1 connected.
+[2017-10-20 04:10:39.791] [INFO] default - User 9tzpI0v4ktLnPXFBAAAS disconnected.
+[2017-10-20 04:10:41.134] [INFO] default - User L3JZpvUTAJsbcpAzAAAT, IP: ::1 connected.
+[2017-10-20 04:11:07.465] [INFO] default - User L3JZpvUTAJsbcpAzAAAT disconnected.
+[2017-10-20 04:11:08.839] [INFO] default - User E_52xNsr_sAahiDIAAAU, IP: ::1 connected.
+[2017-10-20 04:11:17.714] [INFO] default - User E_52xNsr_sAahiDIAAAU disconnected.
+[2017-10-20 04:11:19.081] [INFO] default - User v69kM5voDU0DsmfnAAAV, IP: ::1 connected.
+[2017-10-20 04:11:24.613] [INFO] default - User v69kM5voDU0DsmfnAAAV disconnected.
+[2017-10-20 04:11:25.851] [INFO] default - User uN-1ITUd6jxWp81VAAAW, IP: ::1 connected.
+[2017-10-20 04:11:29.860] [INFO] default - User uN-1ITUd6jxWp81VAAAW disconnected.
+[2017-10-20 04:11:31.155] [INFO] default - User 5jc4AkfZLVprZIVVAAAX, IP: ::1 connected.
+[2017-10-20 04:11:50.325] [INFO] default - User 5jc4AkfZLVprZIVVAAAX disconnected.
+[2017-10-20 04:11:51.707] [INFO] default - User j0OeakLF5YH4gEpiAAAY, IP: ::1 connected.
+[2017-10-20 04:11:56.620] [INFO] default - User j0OeakLF5YH4gEpiAAAY disconnected.
+[2017-10-20 04:11:57.860] [INFO] default - User nIKE4hKfoDY9JmjsAAAZ, IP: ::1 connected.
+[2017-10-20 04:12:03.120] [INFO] default - User nIKE4hKfoDY9JmjsAAAZ disconnected.
+[2017-10-20 04:12:04.387] [INFO] default - User lRzKfS_EdxADopgIAAAa, IP: ::1 connected.
+[2017-10-20 04:12:09.110] [INFO] default - User lRzKfS_EdxADopgIAAAa disconnected.
+[2017-10-20 04:12:10.326] [INFO] default - User x8Kb1UHRJHlGwGsHAAAb, IP: ::1 connected.
+[2017-10-20 04:13:10.373] [INFO] default - User x8Kb1UHRJHlGwGsHAAAb disconnected.
+[2017-10-20 04:13:11.727] [INFO] default - User cKFsYq2PJJd9USKoAAAc, IP: ::1 connected.
+[2017-10-20 04:13:29.249] [INFO] default - User cKFsYq2PJJd9USKoAAAc disconnected.
+[2017-10-20 04:13:30.600] [INFO] default - User IxlDWZKS6TLHOtM9AAAd, IP: ::1 connected.
+[2017-10-20 04:13:36.762] [INFO] default - User IxlDWZKS6TLHOtM9AAAd disconnected.
+[2017-10-20 04:13:38.033] [INFO] default - User h4zg2qaASFt6ytoMAAAe, IP: ::1 connected.
+[2017-10-20 04:13:47.894] [INFO] default - User h4zg2qaASFt6ytoMAAAe disconnected.
+[2017-10-20 04:13:49.261] [INFO] default - User 64EqBYaEl2RLm5ZtAAAf, IP: ::1 connected.
+[2017-10-20 04:14:10.462] [INFO] default - User 64EqBYaEl2RLm5ZtAAAf disconnected.
+[2017-10-20 04:14:11.836] [INFO] default - User 9M8Gdgj4mDgMnR6eAAAg, IP: ::1 connected.
+[2017-10-20 04:14:22.879] [INFO] default - User 9M8Gdgj4mDgMnR6eAAAg disconnected.
+[2017-10-20 04:14:24.239] [INFO] default - User ltTjotbBIM9BUALpAAAh, IP: ::1 connected.
+[2017-10-20 04:14:39.180] [INFO] default - User ltTjotbBIM9BUALpAAAh disconnected.
+[2017-10-20 04:14:40.504] [INFO] default - User dGluy6A_eL4I5B0oAAAi, IP: ::1 connected.
+[2017-10-20 04:14:51.904] [INFO] default - User dGluy6A_eL4I5B0oAAAi disconnected.
+[2017-10-20 04:14:53.259] [INFO] default - User NA1M3jtzLmrln0JpAAAj, IP: ::1 connected.
+[2017-10-20 04:14:57.402] [INFO] default - User NA1M3jtzLmrln0JpAAAj disconnected.
+[2017-10-20 04:14:58.676] [INFO] default - User PsV65Z-hZzXk7p25AAAk, IP: ::1 connected.
+[2017-10-20 04:15:11.291] [INFO] default - User PsV65Z-hZzXk7p25AAAk disconnected.
+[2017-10-20 04:15:12.635] [INFO] default - User hwG7J322oXMv8K9gAAAl, IP: ::1 connected.
+[2017-10-20 04:15:21.078] [INFO] default - User hwG7J322oXMv8K9gAAAl disconnected.
+[2017-10-20 04:15:22.396] [INFO] default - User uhEnH0KJK5hWOzPmAAAm, IP: ::1 connected.
+[2017-10-20 04:17:03.008] [INFO] default - User uhEnH0KJK5hWOzPmAAAm disconnected.
+[2017-10-20 04:17:04.372] [INFO] default - User 61J9MJslu7ISPD-bAAAn, IP: ::1 connected.
+[2017-10-20 04:17:13.955] [INFO] default - User 61J9MJslu7ISPD-bAAAn disconnected.
+[2017-10-20 04:17:15.358] [INFO] default - User rpE6UInKKQAjdkbiAAAo, IP: ::1 connected.
+[2017-10-20 04:17:28.706] [INFO] default - User rpE6UInKKQAjdkbiAAAo disconnected.
+[2017-10-20 04:17:30.066] [INFO] default - User 5K_pUJAavZSax9DNAAAp, IP: ::1 connected.
+[2017-10-20 04:18:01.639] [INFO] default - User 5K_pUJAavZSax9DNAAAp disconnected.
+[2017-10-20 04:18:02.991] [INFO] default - User owfFLens-vuDN3ZGAAAq, IP: ::1 connected.
+[2017-10-20 04:18:42.684] [INFO] default - User owfFLens-vuDN3ZGAAAq disconnected.
+[2017-10-20 04:18:44.088] [INFO] default - User PlDwxTICKJ8xvviSAAAr, IP: ::1 connected.
+[2017-10-20 04:18:58.732] [INFO] default - User PlDwxTICKJ8xvviSAAAr disconnected.
+[2017-10-20 04:19:00.143] [INFO] default - User aDFE7ezvmdvGyOKwAAAs, IP: ::1 connected.
+[2017-10-20 04:19:12.944] [INFO] default - User aDFE7ezvmdvGyOKwAAAs disconnected.
+[2017-10-20 04:19:14.335] [INFO] default - User FStILwfmEVbRTpg9AAAt, IP: ::1 connected.
+[2017-10-20 04:19:23.578] [INFO] default - User FStILwfmEVbRTpg9AAAt disconnected.
+[2017-10-20 04:19:24.952] [INFO] default - User Ylo_tguXwMdeZ8BfAAAu, IP: ::1 connected.
+[2017-10-20 04:19:33.996] [INFO] default - User Ylo_tguXwMdeZ8BfAAAu disconnected.
+[2017-10-20 04:19:35.420] [INFO] default - User 4Q7gYSbaK3xPtyspAAAv, IP: ::1 connected.
+[2017-10-20 04:20:11.020] [INFO] default - User 4Q7gYSbaK3xPtyspAAAv disconnected.
+[2017-10-20 04:20:12.441] [INFO] default - User bm_pL22vWEDQg2BHAAAw, IP: ::1 connected.
+[2017-10-20 04:22:08.813] [INFO] default - User bm_pL22vWEDQg2BHAAAw disconnected.
+[2017-10-20 04:22:10.225] [INFO] default - User VXK4l0yl2U1ghEY7AAAx, IP: ::1 connected.
+[2017-10-20 04:22:30.336] [INFO] default - User VXK4l0yl2U1ghEY7AAAx disconnected.
+[2017-10-20 04:22:31.754] [INFO] default - User 3ZrH6cHGfLXR45tHAAAy, IP: ::1 connected.
+[2017-10-20 04:22:37.160] [INFO] default - User 3ZrH6cHGfLXR45tHAAAy disconnected.
+[2017-10-20 04:22:38.471] [INFO] default - User I_dYoq9coZ70FaYnAAAz, IP: ::1 connected.
+[2017-10-20 04:24:12.867] [INFO] default - User I_dYoq9coZ70FaYnAAAz disconnected.
+[2017-10-20 04:24:14.267] [INFO] default - User syRPAx8uAUKxtCN9AAA0, IP: ::1 connected.
+[2017-10-20 04:24:44.732] [INFO] default - User syRPAx8uAUKxtCN9AAA0 disconnected.
+[2017-10-20 07:32:38.222] [DEBUG] default - The server started on port 8181.
+[2017-10-20 07:32:38.225] [INFO] default - The server part was successfully started.
+[2017-10-20 07:32:38.233] [DEBUG] default - Database successfully verified.
+[2017-10-20 07:32:41.929] [INFO] default - User VNbhJ-sjS00AO3SXAAAA, IP: ::1 connected.
+[2017-10-20 07:33:25.446] [INFO] default - User VNbhJ-sjS00AO3SXAAAA disconnected.
+[2017-10-20 07:33:26.792] [INFO] default - User vVhgbkUW80BWJa23AAAB, IP: ::1 connected.
+[2017-10-20 07:34:02.053] [INFO] default - User vVhgbkUW80BWJa23AAAB disconnected.
+[2017-10-20 07:34:03.362] [INFO] default - User BHgUfMpfm4a8W-6SAAAC, IP: ::1 connected.
+[2017-10-20 07:34:26.569] [INFO] default - User BHgUfMpfm4a8W-6SAAAC disconnected.
+[2017-10-20 07:34:27.904] [INFO] default - User BSJO_HlWmQJImht1AAAD, IP: ::1 connected.
+[2017-10-20 07:34:29.779] [INFO] default - User BSJO_HlWmQJImht1AAAD disconnected.
+[2017-10-20 07:34:31.002] [INFO] default - User mI8LdbyL5TkIB9XZAAAE, IP: ::1 connected.
+[2017-10-20 07:34:40.885] [INFO] default - User mI8LdbyL5TkIB9XZAAAE disconnected.
+[2017-10-20 07:34:42.223] [INFO] default - User m0nRM960uNuQWLBbAAAF, IP: ::1 connected.
+[2017-10-20 07:35:01.221] [INFO] default - User m0nRM960uNuQWLBbAAAF disconnected.
+[2017-10-20 07:35:02.540] [INFO] default - User s1OHlrFfm9woJQJJAAAG, IP: ::1 connected.
+[2017-10-20 07:35:46.191] [INFO] default - User s1OHlrFfm9woJQJJAAAG disconnected.
+[2017-10-20 07:35:49.702] [INFO] default - User M7ZoAg1eNwbInr5CAAAH, IP: ::1 connected.
+[2017-10-20 07:35:49.713] [INFO] default - User M7ZoAg1eNwbInr5CAAAH disconnected.
+[2017-10-20 07:35:50.951] [INFO] default - User 8mUSQ4I8x5Okvhm9AAAI, IP: ::1 connected.
+[2017-10-20 07:36:19.621] [INFO] default - User 8mUSQ4I8x5Okvhm9AAAI disconnected.
+[2017-10-20 07:36:20.957] [INFO] default - User 1pD5sMhsmp4K3du2AAAJ, IP: ::1 connected.
+[2017-10-20 07:36:33.388] [INFO] default - User 1pD5sMhsmp4K3du2AAAJ disconnected.
+[2017-10-20 07:36:34.723] [INFO] default - User _jUr-uQMGFf45oGtAAAK, IP: ::1 connected.
+[2017-10-20 07:37:30.142] [INFO] default - User _jUr-uQMGFf45oGtAAAK disconnected.
+[2017-10-20 07:37:32.503] [INFO] default - User bmYkj1Kn9ETY42MJAAAL, IP: ::1 connected.
+[2017-10-20 07:37:32.597] [INFO] default - User bmYkj1Kn9ETY42MJAAAL disconnected.
+[2017-10-20 07:37:33.823] [INFO] default - User HPapNn_tmzF7eg-vAAAM, IP: ::1 connected.
+[2017-10-20 07:37:36.840] [INFO] default - User HPapNn_tmzF7eg-vAAAM disconnected.
+[2017-10-20 07:37:38.122] [INFO] default - User fcsCF2IlGf9GMcJPAAAN, IP: ::1 connected.
+[2017-10-20 07:37:53.257] [INFO] default - User fcsCF2IlGf9GMcJPAAAN get method "authorizeUser" (login: , password: )
+[2017-10-20 07:37:53.258] [TRACE] default - Sending method "resultAuthorizeUser" results to fcsCF2IlGf9GMcJPAAAN:
+[2017-10-20 07:37:53.259] [TRACE] default - { error: { type: 'empty_parameter' }, data: null }
+[2017-10-20 07:40:09.327] [INFO] default - User fcsCF2IlGf9GMcJPAAAN disconnected.
+[2017-10-20 07:40:10.664] [INFO] default - User _V0R9TfHdRXB2hioAAAO, IP: ::1 connected.
+[2017-10-20 07:41:12.414] [INFO] default - User _V0R9TfHdRXB2hioAAAO disconnected.
+[2017-10-20 07:41:13.735] [INFO] default - User 1NwGdkLd4pyR1QfDAAAP, IP: ::1 connected.
+[2017-10-20 07:41:53.901] [INFO] default - User 1NwGdkLd4pyR1QfDAAAP disconnected.
+[2017-10-20 07:41:55.213] [INFO] default - User x8bGCCXOCrrtVOjvAAAQ, IP: ::1 connected.
+[2017-10-20 07:41:59.128] [INFO] default - User x8bGCCXOCrrtVOjvAAAQ disconnected.
+[2017-10-20 07:42:00.337] [INFO] default - User MOPEe7IlnMGNKHqZAAAR, IP: ::1 connected.
+[2017-10-20 07:42:41.109] [INFO] default - User MOPEe7IlnMGNKHqZAAAR disconnected.
+[2017-10-20 07:42:42.425] [INFO] default - User sKFdhulb1uW5StTXAAAS, IP: ::1 connected.
+[2017-10-20 07:42:43.308] [INFO] default - User sKFdhulb1uW5StTXAAAS disconnected.
+[2017-10-20 07:42:44.544] [INFO] default - User XCPJW9R4us35AICwAAAT, IP: ::1 connected.
+[2017-10-20 07:43:21.665] [INFO] default - User XCPJW9R4us35AICwAAAT disconnected.
+[2017-10-20 07:43:22.989] [INFO] default - User qNwsBx899CqT8U8dAAAU, IP: ::1 connected.
+[2017-10-20 07:43:55.785] [INFO] default - User qNwsBx899CqT8U8dAAAU disconnected.
+[2017-10-20 07:43:57.123] [INFO] default - User N4llY0_oYZ5JwA_fAAAV, IP: ::1 connected.
+[2017-10-20 07:44:08.741] [INFO] default - User N4llY0_oYZ5JwA_fAAAV disconnected.
+[2017-10-20 07:44:35.128] [DEBUG] default - The server started on port 8181.
+[2017-10-20 07:44:35.131] [INFO] default - The server part was successfully started.
+[2017-10-20 07:44:35.135] [DEBUG] default - Database successfully verified.
+[2017-10-20 07:45:01.748] [INFO] default - User O0Q2VHdm7jbdis9QAAAA, IP: ::1 connected.
+[2017-10-20 07:45:37.107] [INFO] default - User O0Q2VHdm7jbdis9QAAAA disconnected.
+[2017-10-20 07:45:38.395] [INFO] default - User OlM7Eg4-dxKfT4IKAAAB, IP: ::1 connected.
+[2017-10-20 07:46:17.342] [INFO] default - User OlM7Eg4-dxKfT4IKAAAB disconnected.
+[2017-10-20 07:46:18.646] [INFO] default - User Bu1nlz4HkBbzkLvAAAAC, IP: ::1 connected.
+[2017-10-20 11:14:51.140] [DEBUG] default - The server started on port 8181.
+[2017-10-20 11:14:51.247] [INFO] default - The server part was successfully started.
+[2017-10-20 11:14:51.503] [DEBUG] default - Database successfully verified.
+[2017-10-20 11:15:03.867] [INFO] default - User kxsY91jEMIXDtrHaAAAA, IP: 127.0.0.1 connected.
+[2017-10-20 11:16:06.250] [INFO] default - User kxsY91jEMIXDtrHaAAAA get method "authorizeUser" (login: admin, password: root)
+[2017-10-20 11:16:06.351] [TRACE] default - Sending method "resultAuthorizeUser" results to kxsY91jEMIXDtrHaAAAA:
+[2017-10-20 11:16:06.352] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-20 11:18:41.593] [INFO] default - User kxsY91jEMIXDtrHaAAAA get method "sendAnIssueReport" (topic: Функционал сайта, problem: )
+[2017-10-20 11:18:41.596] [TRACE] default - Sending method "resultСreationReport" results to kxsY91jEMIXDtrHaAAAA:
+[2017-10-20 11:18:41.596] [TRACE] default - { error: { type: 'empty_parameter' }, data: null }
+[2017-10-20 11:18:47.529] [INFO] default - User kxsY91jEMIXDtrHaAAAA get method "sendAnIssueReport" (topic: Дизайн сайта, problem: )
+[2017-10-20 11:18:47.530] [TRACE] default - Sending method "resultСreationReport" results to kxsY91jEMIXDtrHaAAAA:
+[2017-10-20 11:18:47.531] [TRACE] default - { error: { type: 'empty_parameter' }, data: null }
+[2017-10-20 11:19:06.214] [INFO] default - User kxsY91jEMIXDtrHaAAAA get method "sendAnIssueReport" (topic: Дизайн сайта, problem: error)
+[2017-10-20 11:19:06.225] [TRACE] default - Sending method "resultСreationReport" results to kxsY91jEMIXDtrHaAAAA:
+[2017-10-20 11:19:06.229] [TRACE] default - { error: null, data: { result_register: true } }
+[2017-10-20 11:30:37.031] [INFO] default - User kxsY91jEMIXDtrHaAAAA disconnected.
+[2017-10-20 11:30:40.000] [INFO] default - User suIOzDS4Y9wkx7ShAAAB, IP: 127.0.0.1 connected.
+[2017-10-20 11:31:04.916] [INFO] default - User suIOzDS4Y9wkx7ShAAAB disconnected.
+[2017-10-20 11:31:09.332] [INFO] default - User EV790gI8tKYdAkvBAAAC, IP: 127.0.0.1 connected.
+[2017-10-20 11:31:17.222] [INFO] default - User EV790gI8tKYdAkvBAAAC get method "authorizeUser" (login: admin, password: root)
+[2017-10-20 11:31:17.319] [TRACE] default - Sending method "resultAuthorizeUser" results to EV790gI8tKYdAkvBAAAC:
+[2017-10-20 11:31:17.319] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-20 11:31:34.005] [INFO] default - User EV790gI8tKYdAkvBAAAC get method "deauthorizeUser"
+[2017-10-20 11:32:35.484] [INFO] default - User EV790gI8tKYdAkvBAAAC get method "authorizeUser" (login: admin, password: root)
+[2017-10-20 11:32:35.580] [TRACE] default - Sending method "resultAuthorizeUser" results to EV790gI8tKYdAkvBAAAC:
+[2017-10-20 11:32:35.581] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-20 11:34:14.156] [INFO] default - User EV790gI8tKYdAkvBAAAC disconnected.
+[2017-10-20 11:34:15.964] [INFO] default - User da5HIh-kmokCWBCpAAAD, IP: 127.0.0.1 connected.
+[2017-10-20 11:34:22.204] [INFO] default - User da5HIh-kmokCWBCpAAAD get method "authorizeUser" (login: admin, password: root)
+[2017-10-20 11:34:22.303] [TRACE] default - Sending method "resultAuthorizeUser" results to da5HIh-kmokCWBCpAAAD:
+[2017-10-20 11:34:22.304] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-20 14:36:13.914] [DEBUG] default - The server started on port 8181.
+[2017-10-20 14:36:13.920] [INFO] default - The server part was successfully started.
+[2017-10-20 14:36:13.934] [DEBUG] default - Database successfully verified.
+[2017-10-21 01:25:02.996] [DEBUG] default - The server started on port 8181.
+[2017-10-21 01:25:03.002] [INFO] default - The server part was successfully started.
+[2017-10-21 01:25:03.012] [DEBUG] default - Database successfully verified.
+[2017-10-21 01:25:07.752] [INFO] default - User 6nCkZLPdc1pjEO_GAAAA, IP: ::1 connected.
+[2017-10-21 01:25:12.495] [INFO] default - User 6nCkZLPdc1pjEO_GAAAA get method "authorizeUser" (login: admin, password: root)
+[2017-10-21 01:25:12.563] [TRACE] default - Sending method "resultAuthorizeUser" results to 6nCkZLPdc1pjEO_GAAAA:
+[2017-10-21 01:25:12.563] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-21 01:26:12.211] [INFO] default - User 6nCkZLPdc1pjEO_GAAAA disconnected.
+[2017-10-21 01:26:13.494] [INFO] default - User RK1lnflpOXNl0bEUAAAB, IP: ::1 connected.
+[2017-10-21 01:26:17.639] [INFO] default - User RK1lnflpOXNl0bEUAAAB get method "authorizeUser" (login: admin, password: root)
+[2017-10-21 01:26:17.700] [TRACE] default - Sending method "resultAuthorizeUser" results to RK1lnflpOXNl0bEUAAAB:
+[2017-10-21 01:26:17.701] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-21 15:43:49.099] [DEBUG] default - The server started on port 8181.
+[2017-10-21 15:43:49.103] [INFO] default - The server part was successfully started.
+[2017-10-21 15:43:49.112] [DEBUG] default - Database successfully verified.
+[2017-10-21 15:43:55.647] [INFO] default - User 0lmXFwk39yMORjXIAAAA, IP: ::1 connected.
+[2017-10-21 15:44:08.045] [INFO] default - User 0lmXFwk39yMORjXIAAAA get method "authorizeUser" (login: admin, password: root)
+[2017-10-21 15:44:08.111] [TRACE] default - Sending method "resultAuthorizeUser" results to 0lmXFwk39yMORjXIAAAA:
+[2017-10-21 15:44:08.112] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-21 15:44:35.382] [INFO] default - User 0lmXFwk39yMORjXIAAAA disconnected.

@@ -1,0 +1,16 @@
+/************************ СТРАНИЦА РАБОЧЕГО СТОЛА ************************/
+
+
+/* уведомления */
+
+#report-info-success {
+    display: none;
+}
+
+#report-info-danger {
+    display: none;
+}
+
+#report-info-warning {
+    display: none;
+}
