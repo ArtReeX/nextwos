@@ -39,7 +39,7 @@ $(document).ready(function () {
         if (window.identifier === "bug") {
 
             // отправка отчёта о проблеме
-            window.socket.emit("createReportBug", String($.trim($("#bug-category").val())), String($.trim($("#bug-input-error").val())));
+            window.socket.emit("general_bug-createReport", String($.trim($("#bug-category").val())), String($.trim($("#bug-input-error").val())));
 
         }
 

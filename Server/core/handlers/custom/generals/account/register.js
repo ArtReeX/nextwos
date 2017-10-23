@@ -13,6 +13,8 @@ var log = log_module.Log();
 // МЕТОД РЕГИСТРАЦИИ ПОЛЬЗОВАТЕЛЯ
 function register(mysql, data, callback) {
 
+    'use strict';
+    
     // стандартные проверки
     if (String(data.username) === "" || String(data.password) === "" || String(data.first_name) === "" || String(data.second_name) === "") {
 

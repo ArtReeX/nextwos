@@ -14,3 +14,157 @@
 [2017-10-23 03:27:30.055] [TRACE] default - { error: null,
   data: { categories: [ [Object], [Object], [Object] ] } }
 [2017-10-23 03:27:32.378] [INFO] default - User 6AuTZrk3CP9KQiwLAAAA disconnected.
+[2017-10-23 16:09:32.717] [DEBUG] default - Database successfully verified.
+[2017-10-23 16:09:32.871] [DEBUG] default - The server started on port 8181.
+[2017-10-23 16:09:32.872] [INFO] default - The server part was successfully started.
+[2017-10-23 16:09:34.970] [INFO] default - User npM2Vl1jAgAxeEyYAAAA, IP: ::1 connected.
+[2017-10-23 16:09:40.421] [INFO] default - User npM2Vl1jAgAxeEyYAAAA get method "registerUser" (login: пкупку, password: пкупку, first_name: пкуп, second_name: куп)
+[2017-10-23 16:09:40.483] [TRACE] default - Sending method "resultRegisterUser" results to npM2Vl1jAgAxeEyYAAAA:
+[2017-10-23 16:09:40.483] [TRACE] default - { error: null, data: { result_register: true } }
+[2017-10-23 16:09:50.223] [INFO] default - User npM2Vl1jAgAxeEyYAAAA get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 16:09:50.284] [TRACE] default - Sending method "resultAuthorizeUser" results to npM2Vl1jAgAxeEyYAAAA:
+[2017-10-23 16:09:50.286] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 16:10:41.966] [INFO] default - User npM2Vl1jAgAxeEyYAAAA disconnected.
+[2017-10-23 16:10:42.353] [INFO] default - User qwO9aERXb-6p8pshAAAB, IP: ::1 connected.
+[2017-10-23 16:10:48.156] [INFO] default - User qwO9aERXb-6p8pshAAAB get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 16:10:48.219] [TRACE] default - Sending method "resultAuthorizeUser" results to qwO9aERXb-6p8pshAAAB:
+[2017-10-23 16:10:48.219] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 16:10:50.297] [INFO] default - User qwO9aERXb-6p8pshAAAB get method "getReportBugCategories"
+[2017-10-23 16:10:50.300] [TRACE] default - Sending method "resultGetReportBugCategories" results to qwO9aERXb-6p8pshAAAB:
+[2017-10-23 16:10:50.301] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:12:03.667] [INFO] default - User qwO9aERXb-6p8pshAAAB get method "getReportBugCategories"
+[2017-10-23 16:12:03.671] [TRACE] default - Sending method "resultGetReportBugCategories" results to qwO9aERXb-6p8pshAAAB:
+[2017-10-23 16:12:03.672] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:12:50.642] [INFO] default - User qwO9aERXb-6p8pshAAAB disconnected.
+[2017-10-23 16:12:51.037] [INFO] default - User xY5wWXYmwxiyE-gvAAAC, IP: ::1 connected.
+[2017-10-23 16:12:59.259] [INFO] default - User xY5wWXYmwxiyE-gvAAAC get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 16:12:59.319] [TRACE] default - Sending method "resultAuthorizeUser" results to xY5wWXYmwxiyE-gvAAAC:
+[2017-10-23 16:12:59.320] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 16:13:01.507] [INFO] default - User xY5wWXYmwxiyE-gvAAAC get method "getReportBugCategories"
+[2017-10-23 16:13:01.509] [TRACE] default - Sending method "resultGetReportBugCategories" results to xY5wWXYmwxiyE-gvAAAC:
+[2017-10-23 16:13:01.510] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:14:23.876] [INFO] default - User xY5wWXYmwxiyE-gvAAAC get method "getReportBugCategories"
+[2017-10-23 16:14:23.879] [TRACE] default - Sending method "resultGetReportBugCategories" results to xY5wWXYmwxiyE-gvAAAC:
+[2017-10-23 16:14:23.880] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:14:30.009] [INFO] default - User xY5wWXYmwxiyE-gvAAAC disconnected.
+[2017-10-23 16:14:30.399] [INFO] default - User HYY9Eh-UkPvKnZzeAAAD, IP: ::1 connected.
+[2017-10-23 16:14:35.626] [INFO] default - User HYY9Eh-UkPvKnZzeAAAD get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 16:14:35.685] [TRACE] default - Sending method "resultAuthorizeUser" results to HYY9Eh-UkPvKnZzeAAAD:
+[2017-10-23 16:14:35.686] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 16:14:38.710] [INFO] default - User HYY9Eh-UkPvKnZzeAAAD get method "getReportBugCategories"
+[2017-10-23 16:14:38.712] [TRACE] default - Sending method "resultGetReportBugCategories" results to HYY9Eh-UkPvKnZzeAAAD:
+[2017-10-23 16:14:38.713] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:16:50.587] [INFO] default - User HYY9Eh-UkPvKnZzeAAAD disconnected.
+[2017-10-23 16:16:50.995] [INFO] default - User EXOqzXDOeAu5fl0BAAAE, IP: ::1 connected.
+[2017-10-23 16:17:02.059] [INFO] default - User EXOqzXDOeAu5fl0BAAAE get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 16:17:02.120] [TRACE] default - Sending method "resultAuthorizeUser" results to EXOqzXDOeAu5fl0BAAAE:
+[2017-10-23 16:17:02.121] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 16:17:04.115] [INFO] default - User EXOqzXDOeAu5fl0BAAAE get method "getReportBugCategories"
+[2017-10-23 16:17:04.116] [TRACE] default - Sending method "resultGetReportBugCategories" results to EXOqzXDOeAu5fl0BAAAE:
+[2017-10-23 16:17:04.117] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:18:21.822] [INFO] default - User EXOqzXDOeAu5fl0BAAAE disconnected.
+[2017-10-23 16:18:22.210] [INFO] default - User uqfnrw0Wg4UB5iNqAAAF, IP: ::1 connected.
+[2017-10-23 16:18:30.075] [INFO] default - User uqfnrw0Wg4UB5iNqAAAF get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 16:18:30.135] [TRACE] default - Sending method "resultAuthorizeUser" results to uqfnrw0Wg4UB5iNqAAAF:
+[2017-10-23 16:18:30.135] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 16:18:32.544] [INFO] default - User uqfnrw0Wg4UB5iNqAAAF get method "getReportBugCategories"
+[2017-10-23 16:18:32.546] [TRACE] default - Sending method "resultGetReportBugCategories" results to uqfnrw0Wg4UB5iNqAAAF:
+[2017-10-23 16:18:32.547] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:19:48.562] [INFO] default - User uqfnrw0Wg4UB5iNqAAAF disconnected.
+[2017-10-23 16:19:48.985] [INFO] default - User Xz27-Ks8-lYc8gjyAAAG, IP: ::1 connected.
+[2017-10-23 16:19:54.315] [INFO] default - User Xz27-Ks8-lYc8gjyAAAG get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 16:19:54.376] [TRACE] default - Sending method "resultAuthorizeUser" results to Xz27-Ks8-lYc8gjyAAAG:
+[2017-10-23 16:19:54.376] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 16:19:56.774] [INFO] default - User Xz27-Ks8-lYc8gjyAAAG get method "getReportBugCategories"
+[2017-10-23 16:19:56.777] [TRACE] default - Sending method "resultGetReportBugCategories" results to Xz27-Ks8-lYc8gjyAAAG:
+[2017-10-23 16:19:56.778] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 16:20:02.358] [INFO] default - User Xz27-Ks8-lYc8gjyAAAG get method "createReportBug" (category_id: 3, error: retg)
+[2017-10-23 16:20:02.360] [TRACE] default - Sending method "resultCreationReportBug" results to Xz27-Ks8-lYc8gjyAAAG:
+[2017-10-23 16:20:02.361] [TRACE] default - { error: null, data: { result_create: true } }
+[2017-10-23 16:56:19.860] [DEBUG] default - Database successfully verified.
+[2017-10-23 16:56:20.001] [DEBUG] default - The server started on port 8181.
+[2017-10-23 16:56:20.002] [INFO] default - The server part was successfully started.
+[2017-10-23 16:56:20.117] [INFO] default - User i5aQG9-a-lBJtyOiAAAA, IP: ::ffff:127.0.0.1 connected.
+[2017-10-23 16:56:51.317] [INFO] default - User i5aQG9-a-lBJtyOiAAAA disconnected.
+[2017-10-23 16:56:51.721] [INFO] default - User pptWXYtjMyLFbmPOAAAB, IP: ::ffff:127.0.0.1 connected.
+[2017-10-23 16:58:29.545] [DEBUG] default - Database successfully verified.
+[2017-10-23 16:58:29.559] [DEBUG] default - The server started on port 8181.
+[2017-10-23 16:58:29.559] [INFO] default - The server part was successfully started.
+[2017-10-23 16:58:29.685] [INFO] default - User gr2bUHS0cn9ZHp_iAAAA, IP: ::1 connected.
+[2017-10-23 16:58:31.290] [INFO] default - User gr2bUHS0cn9ZHp_iAAAA disconnected.
+[2017-10-23 16:58:31.722] [INFO] default - User ew4UZ2ERkZrqtP3CAAAB, IP: ::1 connected.
+[2017-10-23 16:58:34.915] [INFO] default - User ew4UZ2ERkZrqtP3CAAAB get method "general_account-register" (login: , password: , first_name: trh, second_name: )
+[2017-10-23 17:00:02.417] [DEBUG] default - Database successfully verified.
+[2017-10-23 17:00:02.431] [DEBUG] default - The server started on port 8181.
+[2017-10-23 17:00:02.431] [INFO] default - The server part was successfully started.
+[2017-10-23 17:00:02.478] [INFO] default - User xK0Zy2T05xwKrRy5AAAA, IP: ::ffff:127.0.0.1 connected.
+[2017-10-23 17:00:03.558] [INFO] default - User xK0Zy2T05xwKrRy5AAAA disconnected.
+[2017-10-23 17:00:04.011] [INFO] default - User b_UNQRw2r0n4TGUNAAAB, IP: ::ffff:127.0.0.1 connected.
+[2017-10-23 17:00:07.562] [INFO] default - User b_UNQRw2r0n4TGUNAAAB get method "general_account-register" (login: , password: , first_name: greg, second_name: greg)
+[2017-10-23 17:01:05.333] [DEBUG] default - Database successfully verified.
+[2017-10-23 17:01:05.348] [DEBUG] default - The server started on port 8181.
+[2017-10-23 17:01:05.348] [INFO] default - The server part was successfully started.
+[2017-10-23 17:01:07.791] [INFO] default - User 6fvVpr7vosaonAb1AAAA, IP: ::1 connected.
+[2017-10-23 17:01:07.902] [INFO] default - User 6fvVpr7vosaonAb1AAAA disconnected.
+[2017-10-23 17:01:08.312] [INFO] default - User VjAutX_sjPNrHQ76AAAB, IP: ::1 connected.
+[2017-10-23 17:01:12.023] [INFO] default - User VjAutX_sjPNrHQ76AAAB get method "general_account-register" (login: , password: , first_name: greg, second_name: regre)
+[2017-10-23 17:02:15.161] [DEBUG] default - Database successfully verified.
+[2017-10-23 17:02:15.174] [DEBUG] default - The server started on port 8181.
+[2017-10-23 17:02:15.175] [INFO] default - The server part was successfully started.
+[2017-10-23 17:02:16.953] [INFO] default - User ViGYTEmhZhg-RZgeAAAA, IP: ::1 connected.
+[2017-10-23 17:02:20.758] [INFO] default - User ViGYTEmhZhg-RZgeAAAA get method "general_account-register" (login: , password: , first_name: gregre, second_name: regre)
+[2017-10-23 17:02:20.759] [TRACE] default - Sending method "result_general_account-register" results to ViGYTEmhZhg-RZgeAAAA:
+[2017-10-23 17:02:20.759] [TRACE] default - { error: { type: 'empty_parameter' }, data: null }
+[2017-10-23 17:02:24.031] [INFO] default - User ViGYTEmhZhg-RZgeAAAA get method "general_account-register" (login: greg, password: gegre, first_name: gregre, second_name: regre)
+[2017-10-23 17:02:24.095] [TRACE] default - Sending method "result_general_account-register" results to ViGYTEmhZhg-RZgeAAAA:
+[2017-10-23 17:02:24.096] [TRACE] default - { error: null, data: { result_register: true } }
+[2017-10-23 17:02:29.005] [INFO] default - User ViGYTEmhZhg-RZgeAAAA get method "account-authorize" (login: a, password: )
+[2017-10-23 17:02:29.006] [TRACE] default - Sending method "result_general_account-authorize" results to ViGYTEmhZhg-RZgeAAAA:
+[2017-10-23 17:02:29.007] [TRACE] default - { error: { type: 'empty_parameter' }, data: null }
+[2017-10-23 17:02:33.334] [INFO] default - User ViGYTEmhZhg-RZgeAAAA get method "account-authorize" (login: admin, password: root)
+[2017-10-23 17:02:33.396] [TRACE] default - Sending method "result_general_account-authorize" results to ViGYTEmhZhg-RZgeAAAA:
+[2017-10-23 17:02:33.397] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 17:03:16.723] [INFO] default - User ViGYTEmhZhg-RZgeAAAA disconnected.
+[2017-10-23 17:03:17.117] [INFO] default - User -iHx3KmFnLJPhUbGAAAB, IP: ::1 connected.
+[2017-10-23 17:03:24.962] [INFO] default - User -iHx3KmFnLJPhUbGAAAB get method "account-authorize" (login: admin, password: root)
+[2017-10-23 17:03:25.021] [TRACE] default - Sending method "result_general_account-authorize" results to -iHx3KmFnLJPhUbGAAAB:
+[2017-10-23 17:03:25.022] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 17:03:40.839] [INFO] default - User -iHx3KmFnLJPhUbGAAAB disconnected.
+[2017-10-23 17:03:41.228] [INFO] default - User qokxD1GtJQf5wOp6AAAC, IP: ::1 connected.
+[2017-10-23 17:03:46.383] [INFO] default - User qokxD1GtJQf5wOp6AAAC get method "account-authorize" (login: admin, password: root)
+[2017-10-23 17:03:46.443] [TRACE] default - Sending method "result_general_account-authorize" results to qokxD1GtJQf5wOp6AAAC:
+[2017-10-23 17:03:46.444] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 17:03:48.729] [INFO] default - User qokxD1GtJQf5wOp6AAAC get method "general_bug-getCategories"
+[2017-10-23 17:03:48.732] [TRACE] default - Sending method "result_general_bug-getCategories" results to qokxD1GtJQf5wOp6AAAC:
+[2017-10-23 17:03:48.733] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 17:04:16.925] [INFO] default - User qokxD1GtJQf5wOp6AAAC disconnected.
+[2017-10-23 17:04:17.320] [INFO] default - User nPm1C0Sta1cVi_yIAAAD, IP: ::1 connected.
+[2017-10-23 17:04:22.800] [INFO] default - User nPm1C0Sta1cVi_yIAAAD get method "account-authorize" (login: admin, password: root)
+[2017-10-23 17:04:22.859] [TRACE] default - Sending method "result_general_account-authorize" results to nPm1C0Sta1cVi_yIAAAD:
+[2017-10-23 17:04:22.861] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 17:04:24.940] [INFO] default - User nPm1C0Sta1cVi_yIAAAD get method "general_bug-getCategories"
+[2017-10-23 17:04:24.942] [TRACE] default - Sending method "result_general_bug-getCategories" results to nPm1C0Sta1cVi_yIAAAD:
+[2017-10-23 17:04:24.943] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 17:04:27.349] [INFO] default - User nPm1C0Sta1cVi_yIAAAD get method "general_bug-createReport" (category_id: 3, error: ewrfwe)
+[2017-10-23 17:04:27.351] [TRACE] default - Sending method "result_general_bug-createReport" results to nPm1C0Sta1cVi_yIAAAD:
+[2017-10-23 17:04:27.351] [TRACE] default - { error: null, data: { result_create: true } }
+[2017-10-23 17:05:09.001] [DEBUG] default - Database successfully verified.
+[2017-10-23 17:05:09.014] [DEBUG] default - The server started on port 8181.
+[2017-10-23 17:05:09.015] [INFO] default - The server part was successfully started.
+[2017-10-23 17:05:09.602] [INFO] default - User 2EcG2YkxlMlEBntBAAAA, IP: ::1 connected.
+[2017-10-23 17:05:10.279] [INFO] default - User 2EcG2YkxlMlEBntBAAAA disconnected.
+[2017-10-23 17:05:10.671] [INFO] default - User oHAWUYclXcoEZxFHAAAB, IP: ::1 connected.
+[2017-10-23 17:05:15.687] [INFO] default - User oHAWUYclXcoEZxFHAAAB get method "account-authorize" (login: admin, password: root)
+[2017-10-23 17:05:15.749] [TRACE] default - Sending method "result_general_account-authorize" results to oHAWUYclXcoEZxFHAAAB:
+[2017-10-23 17:05:15.750] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 17:05:17.393] [INFO] default - User oHAWUYclXcoEZxFHAAAB get method "general_account-deauthorize"

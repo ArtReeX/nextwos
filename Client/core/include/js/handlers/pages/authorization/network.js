@@ -6,7 +6,7 @@ $(document).ready(function () {
     'use strict';
 
     // - установка обработчика получения результата регистрации
-    window.socket.on("resultAuthorizeUser", function (result) {
+    window.socket.on("result_general_account-authorize", function (result) {
 
         // проверка соответствие обработчика со страницей
         if (window.identifier === "authorization") {

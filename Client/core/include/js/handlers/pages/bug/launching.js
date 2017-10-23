@@ -6,6 +6,6 @@ $(document).ready(function () {
     'use strict';
 
     // отправка запроса на получение категорий отчётов об ошибке
-    window.socket.emit("getReportBugCategories", null);
+    window.socket.emit("general_bug-getCategories", null);
 
 });

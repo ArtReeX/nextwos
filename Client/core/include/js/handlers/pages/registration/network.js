@@ -6,7 +6,7 @@ $(document).ready(function () {
     'use strict';
 
     // - установка обработчика получения результата регистрации
-    window.socket.on("resultRegisterUser", function (result) {
+    window.socket.on("result_general_account-register", function (result) {
 
         // проверка соответствие обработчика со страницей
         if (window.identifier === "registration") {

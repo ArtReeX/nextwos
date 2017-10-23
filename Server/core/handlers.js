@@ -2,5 +2,5 @@
 
 /*globals module, require*/
 
-module.exports.api = require('./handlers/api');
+module.exports.custom = require('./handlers/custom');
 module.exports.service = require('./handlers/service');

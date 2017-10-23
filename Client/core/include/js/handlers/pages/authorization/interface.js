@@ -14,7 +14,7 @@ $(document).ready(function () {
         if (window.identifier === "authorization") {
 
             // отправка запроса на авторизацию
-            window.socket.emit("authorizeUser", String($.trim($("#username").val())), String($.trim($("#password").val())));
+            window.socket.emit("general_account-authorize", String($.trim($("#username").val())), String($.trim($("#password").val())));
 
         }
 

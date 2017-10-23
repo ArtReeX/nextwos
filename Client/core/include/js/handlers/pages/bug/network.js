@@ -6,7 +6,7 @@ $(document).ready(function () {
     'use strict';
 
     // установка обработчика получения результата создания отчёта
-    window.socket.on("resultCreationReportBug", function (result) {
+    window.socket.on("result_general_bug-createReport", function (result) {
 
         // проверка соответствие обработчика со страницей
         if (window.identifier === "bug") {
@@ -58,7 +58,7 @@ $(document).ready(function () {
     });
 
     // установка обработчика получения категорий отчёта об ошибке
-    window.socket.on("resultGetReportBugCategories", function (result) {
+    window.socket.on("result_general_bug-getCategories", function (result) {
 
         // проверка соответствие обработчика со страницей
         if (window.identifier === "bug") {

@@ -25,7 +25,7 @@ $(document).ready(function () {
         if (window.identifier === "desktop") {
 
             // отправка запроса на деавторизацию
-            window.socket.emit("deauthorizeUser");
+            window.socket.emit("general_account-deauthorize");
 
             // редирект на страницу авторизации
             showPageAuthorization();

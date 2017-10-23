@@ -13,6 +13,8 @@ var log = log_module.Log();
 // МЕТОД ПРОВЕРКИ АВТОРИЗАЦИИ ПОЛЬЗОВАТЕЛЯ
 function authorize(mysql, data, callback) {
 
+    'use strict';
+    
     // стандартные проверки
     if (String(data.username) === "" || String(data.password) === "") {
 

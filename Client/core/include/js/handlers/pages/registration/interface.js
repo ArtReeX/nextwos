@@ -12,7 +12,7 @@ $(document).ready(function () {
         if (window.identifier === "registration") {
 
             // отправка запроса на регистрацию
-            window.socket.emit("registerUser", String($.trim($("#username").val())), String($.trim($("#password").val())), String($.trim($("#first_name").val())), String($.trim($("#second_name").val())));
+            window.socket.emit("general_account-register", String($.trim($("#username").val())), String($.trim($("#password").val())), String($.trim($("#first_name").val())), String($.trim($("#second_name").val())));
 
         }
 

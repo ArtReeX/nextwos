@@ -16,6 +16,7 @@ var log = log_module.Log();
 
 /*-------------------------- WS-СЕРВЕР -----------------------------*/
 var WS = function (callback) {
+    
     'use strict';
 
     // СОЗДАНИЕ КЛИЕНТА MYSQL
@@ -115,12 +116,12 @@ var WS = function (callback) {
                                 // * АККАУНТ ПОЛЬЗОВАТЕЛЯ
 
                                 // - обработчик запроса авторизации пользователя
-                                socket.on('authorizeUser', function (username, password) {
+                                socket.on('general_account-authorize', function (username, password) {
 
                                     // запись сообщения клиента в отладку
-                                    log.info("User " + socket.id + " get method \"authorizeUser\" (login: " + String(username) + ", password: " + String(password) + ")");
+                                    log.info("User " + socket.id + " get method \"account-authorize\" (login: " + String(username) + ", password: " + String(password) + ")");
 
-                                    handlers_module.api.generals.account.authorize(mysql_client, {
+                                    handlers_module.custom.generals.account.authorize(mysql_client, {
                                         "username": String(username),
                                         "password": String(password)
                                     }, function (result) {
@@ -130,7 +131,7 @@ var WS = function (callback) {
                                             // ОБРАБОТКА ОШИБОК
 
                                             // отправка результата
-                                            log.trace("Sending method \"resultAuthorizeUser\" results to " + socket.id + ":");
+                                            log.trace("Sending method \"result_general_account-authorize\" results to " + socket.id + ":");
                                             log.trace({
                                                 "error": {
                                                     "type": result.error.type
@@ -138,7 +139,7 @@ var WS = function (callback) {
                                                 "data": null
                                             });
 
-                                            socket.emit('resultAuthorizeUser', {
+                                            socket.emit('result_general_account-authorize', {
                                                 "error": {
                                                     "type": result.error.type
                                                 },
@@ -159,7 +160,7 @@ var WS = function (callback) {
                                             socket.join(session.account.identificator);
 
                                             // отправка результата
-                                            log.trace("Sending method \"resultAuthorizeUser\" results to " + socket.id + ":");
+                                            log.trace("Sending method \"result_general_account-authorize\" results to " + socket.id + ":");
                                             log.trace({
                                                 "error": null,
                                                 "data": {
@@ -167,7 +168,7 @@ var WS = function (callback) {
                                                 }
                                             });
 
-                                            socket.emit('resultAuthorizeUser', {
+                                            socket.emit('result_general_account-authorize', {
                                                 "error": null,
                                                 "data": {
                                                     "result_authorize": result.data.result_authorize
@@ -180,26 +181,26 @@ var WS = function (callback) {
                                 });
 
                                 // - обработчик запроса деавторизации пользователя
-                                socket.on('deauthorizeUser', function () { // eslint-disable-line no-unused-vars
+                                socket.on('general_account-deauthorize', function () {
 
                                     // отключение от комнaты со всеми клиентами для данного пользователя
-                                    socket.leave(session.user.identificator);
+                                    socket.leave(session.account.identificator);
 
                                     // сброс данных авторизированного пользователя
-                                    session.user.identificator = null;
+                                    session.account.identificator = null;
 
                                     // запись сообщения клиента в отладку
-                                    log.info("User " + socket.id + " get method \"deauthorizeUser\"");
+                                    log.info("User " + socket.id + " get method \"general_account-deauthorize\"");
 
                                 });
 
                                 // - обработчик запроса регистрации пользователя
-                                socket.on('registerUser', function (username, password, first_name, second_name) {
+                                socket.on('general_account-register', function (username, password, first_name, second_name) {
 
                                     // запись сообщения клиента в отладку
-                                    log.info("User " + socket.id + " get method \"registerUser\" (login: " + String(username) + ", password: " + String(password) + ", first_name: " + String(first_name) + ", second_name: " + String(second_name) + ")");
+                                    log.info("User " + socket.id + " get method \"general_account-register\" (login: " + String(username) + ", password: " + String(password) + ", first_name: " + String(first_name) + ", second_name: " + String(second_name) + ")");
 
-                                    handlers_module.api.generals.account.register(mysql_client, {
+                                    handlers_module.custom.generals.account.register(mysql_client, {
                                         "username": String(username),
                                         "password": String(password),
                                         "first_name": String(first_name),
@@ -211,7 +212,7 @@ var WS = function (callback) {
                                             // ОБРАБОТКА ОШИБОК
 
                                             // отправка результата
-                                            log.trace("Sending method \"resultRegisterUser\" results to " + socket.id + ":");
+                                            log.trace("Sending method \"result_general_account-register\" results to " + socket.id + ":");
                                             log.trace({
                                                 "error": {
                                                     "type": result.error.type
@@ -219,7 +220,7 @@ var WS = function (callback) {
                                                 "data": null
                                             });
 
-                                            socket.emit('resultRegisterUser', {
+                                            socket.emit('result_general_account-register', {
                                                 "error": {
                                                     "type": result.error.type
                                                 },
@@ -231,7 +232,7 @@ var WS = function (callback) {
                                             // ОБРАБОТКА ОТВЕТОВ
 
                                             // отправка результата
-                                            log.trace("Sending method \"resultRegisterUser\" results to " + socket.id + ":");
+                                            log.trace("Sending method \"result_general_account-register\" results to " + socket.id + ":");
                                             log.trace({
                                                 "error": null,
                                                 "data": {
@@ -239,7 +240,7 @@ var WS = function (callback) {
                                                 }
                                             });
 
-                                            socket.emit('resultRegisterUser', {
+                                            socket.emit('result_general_account-register', {
                                                 "error": null,
                                                 "data": {
                                                     "result_register": result.data.result_register
@@ -255,12 +256,12 @@ var WS = function (callback) {
                                 // * СООБЩЕНИЯ ОБ ОШИБКАХ
 
                                 // ОБРАБОТЧИК ЗАПРОСА ПРИЁМА СООБЩЕНИЯ ОБ ОШИБКЕ
-                                socket.on('createReportBug', function (category_id, error) {
+                                socket.on('general_bug-createReport', function (category_id, error) {
 
                                     // запись сообщения клиента в отладку
-                                    log.info("User " + socket.id + " get method \"createReportBug\" (category_id: " + Number(category_id) + ", error: " + String(error) + ")");
+                                    log.info("User " + socket.id + " get method \"general_bug-createReport\" (category_id: " + Number(category_id) + ", error: " + String(error) + ")");
 
-                                    handlers_module.api.generals.bug.createReport(mysql_client, {
+                                    handlers_module.custom.generals.bug.createReport(mysql_client, {
                                         "category_id": Number(category_id),
                                         "error": String(error),
                                         "identificator": Number(session.account.identificator)
@@ -271,7 +272,7 @@ var WS = function (callback) {
                                             // ОБРАБОТКА ОШИБОК
 
                                             // отправка результата
-                                            log.trace("Sending method \"resultCreationReportBug\" results to " + socket.id + ":");
+                                            log.trace("Sending method \"result_general_bug-createReport\" results to " + socket.id + ":");
                                             log.trace({
                                                 "error": {
                                                     "type": result.error.type
@@ -279,7 +280,7 @@ var WS = function (callback) {
                                                 "data": null
                                             });
 
-                                            socket.emit('resultCreationReportBug', {
+                                            socket.emit('result_general_bug-createReport', {
                                                 "error": {
                                                     "type": result.error.type
                                                 },
@@ -291,7 +292,7 @@ var WS = function (callback) {
                                             // ОБРАБОТКА ОТВЕТОВ
 
                                             // отправка результата
-                                            log.trace("Sending method \"resultCreationReportBug\" results to " + socket.id + ":");
+                                            log.trace("Sending method \"result_general_bug-createReport\" results to " + socket.id + ":");
                                             log.trace({
                                                 "error": null,
                                                 "data": {
@@ -299,7 +300,7 @@ var WS = function (callback) {
                                                 }
                                             });
 
-                                            socket.emit('resultCreationReportBug', {
+                                            socket.emit('result_general_bug-createReport', {
                                                 "error": null,
                                                 "data": {
                                                     "result_create": result.data.result_create
@@ -312,12 +313,12 @@ var WS = function (callback) {
                                 });
 
                                 // ОБРАБОТЧИК ЗАПРОСА ПОЛУЧЕНИЯ КАТЕГОРИИ ОТЧЁТОВ ОБ ОШИБКЕ
-                                socket.on('getReportBugCategories', function () {
+                                socket.on('general_bug-getCategories', function () {
 
                                     // запись сообщения клиента в отладку
-                                    log.info("User " + socket.id + " get method \"getReportBugCategories\"");
+                                    log.info("User " + socket.id + " get method \"general_bug-getCategories\"");
 
-                                    handlers_module.api.generals.bug.getCategories(mysql_client,
+                                    handlers_module.custom.generals.bug.getCategories(mysql_client,
                                         function (result) {
 
                                             if (result.error) {
@@ -325,7 +326,7 @@ var WS = function (callback) {
                                                 // ОБРАБОТКА ОШИБОК
 
                                                 // отправка результата
-                                                log.trace("Sending method \"resultGetReportBugCategories\" results to " + socket.id + ":");
+                                                log.trace("Sending method \"result_general_bug-getCategories\" results to " + socket.id + ":");
                                                 log.trace({
                                                     "error": {
                                                         "type": result.error.type
@@ -333,7 +334,7 @@ var WS = function (callback) {
                                                     "data": null
                                                 });
 
-                                                socket.emit('resultGetReportBugCategories', {
+                                                socket.emit('result_general_bug-getCategories', {
                                                     "error": {
                                                         "type": result.error.type
                                                     },
@@ -345,7 +346,7 @@ var WS = function (callback) {
                                                 // ОБРАБОТКА ОТВЕТОВ
 
                                                 // отправка результата
-                                                log.trace("Sending method \"resultGetReportBugCategories\" results to " + socket.id + ":");
+                                                log.trace("Sending method \"result_general_bug-getCategories\" results to " + socket.id + ":");
                                                 log.trace({
                                                     "error": null,
                                                     "data": {
@@ -353,7 +354,7 @@ var WS = function (callback) {
                                                     }
                                                 });
 
-                                                socket.emit('resultGetReportBugCategories', {
+                                                socket.emit('result_general_bug-getCategories', {
                                                     "error": null,
                                                     "data": {
                                                         "categories": result.data.categories
