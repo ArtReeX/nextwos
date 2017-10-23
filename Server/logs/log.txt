@@ -168,3 +168,11 @@
 [2017-10-23 17:05:15.749] [TRACE] default - Sending method "result_general_account-authorize" results to oHAWUYclXcoEZxFHAAAB:
 [2017-10-23 17:05:15.750] [TRACE] default - { error: null, data: { result_authorize: true } }
 [2017-10-23 17:05:17.393] [INFO] default - User oHAWUYclXcoEZxFHAAAB get method "general_account-deauthorize"
+[2017-10-23 18:06:01.969] [DEBUG] default - Database successfully verified.
+[2017-10-23 18:06:01.983] [DEBUG] default - The server started on port 8181.
+[2017-10-23 18:06:01.984] [INFO] default - The server part was successfully started.
+[2017-10-23 18:06:07.175] [INFO] default - User E4xH2Y4UR6qSSHTfAAAA, IP: ::1 connected.
+[2017-10-23 18:06:12.518] [INFO] default - User E4xH2Y4UR6qSSHTfAAAA get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:06:12.583] [TRACE] default - Sending method "result_general_account-authorize" results to E4xH2Y4UR6qSSHTfAAAA:
+[2017-10-23 18:06:12.584] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:06:15.670] [INFO] default - User E4xH2Y4UR6qSSHTfAAAA get method "general_account-deauthorize"

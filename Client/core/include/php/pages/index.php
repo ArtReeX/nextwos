@@ -37,8 +37,7 @@
 
         <div class="row justify-content-center">
 
-            <button class="col-xm-10 col-lg-8 btn btn-dark btn-sm" id="index-button-login" data-toggle="tooltip" data-placement="bottom"
-                title="Вход в учётную запись">
+            <button class="col-xm-10 col-lg-8 btn btn-dark btn-sm" id="index-button-login" title="Вход в учётную запись">
                 <p>
                     <b> ВХОД </b>
                 </p>
