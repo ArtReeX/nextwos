@@ -176,3 +176,59 @@
 [2017-10-23 18:06:12.583] [TRACE] default - Sending method "result_general_account-authorize" results to E4xH2Y4UR6qSSHTfAAAA:
 [2017-10-23 18:06:12.584] [TRACE] default - { error: null, data: { result_authorize: true } }
 [2017-10-23 18:06:15.670] [INFO] default - User E4xH2Y4UR6qSSHTfAAAA get method "general_account-deauthorize"
+[2017-10-23 18:08:05.959] [DEBUG] default - Database successfully verified.
+[2017-10-23 18:08:05.973] [DEBUG] default - The server started on port 8181.
+[2017-10-23 18:08:05.974] [INFO] default - The server part was successfully started.
+[2017-10-23 18:08:07.267] [INFO] default - User g4Zf_Cq2FTrKPDkHAAAA, IP: ::1 connected.
+[2017-10-23 18:08:12.941] [INFO] default - User g4Zf_Cq2FTrKPDkHAAAA get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:08:13.004] [TRACE] default - Sending method "result_general_account-authorize" results to g4Zf_Cq2FTrKPDkHAAAA:
+[2017-10-23 18:08:13.004] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:08:26.816] [INFO] default - User g4Zf_Cq2FTrKPDkHAAAA get method "general_account-deauthorize"
+[2017-10-23 18:08:28.303] [INFO] default - User g4Zf_Cq2FTrKPDkHAAAA disconnected.
+[2017-10-23 18:50:58.865] [DEBUG] default - Database successfully verified.
+[2017-10-23 18:50:59.009] [DEBUG] default - The server started on port 8181.
+[2017-10-23 18:50:59.009] [INFO] default - The server part was successfully started.
+[2017-10-23 18:50:59.690] [INFO] default - User xHf7h1DLHwN3yDxdAAAA, IP: ::1 connected.
+[2017-10-23 18:51:01.031] [INFO] default - User hLh8q8IwtpPl-aQXAAAB, IP: ::1 connected.
+[2017-10-23 18:51:08.533] [INFO] default - User hLh8q8IwtpPl-aQXAAAB get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:51:08.598] [TRACE] default - Sending method "result_general_account-authorize" results to hLh8q8IwtpPl-aQXAAAB:
+[2017-10-23 18:51:08.598] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:51:28.054] [INFO] default - User hLh8q8IwtpPl-aQXAAAB disconnected.
+[2017-10-23 18:51:28.343] [INFO] default - User 3p694oB_IUcNQt_yAAAC, IP: ::1 connected.
+[2017-10-23 18:51:34.267] [INFO] default - User 3p694oB_IUcNQt_yAAAC get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:51:34.328] [TRACE] default - Sending method "result_general_account-authorize" results to 3p694oB_IUcNQt_yAAAC:
+[2017-10-23 18:51:34.328] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:52:29.405] [INFO] default - User 3p694oB_IUcNQt_yAAAC disconnected.
+[2017-10-23 18:52:29.698] [INFO] default - User RtMX_9FguZnnZg77AAAD, IP: ::1 connected.
+[2017-10-23 18:52:35.704] [INFO] default - User RtMX_9FguZnnZg77AAAD get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:52:35.766] [TRACE] default - Sending method "result_general_account-authorize" results to RtMX_9FguZnnZg77AAAD:
+[2017-10-23 18:52:35.767] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:53:12.696] [INFO] default - User RtMX_9FguZnnZg77AAAD disconnected.
+[2017-10-23 18:53:12.983] [INFO] default - User Lt1A5W6-r_Cuhf0nAAAE, IP: ::1 connected.
+[2017-10-23 18:53:18.425] [INFO] default - User Lt1A5W6-r_Cuhf0nAAAE get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:53:18.487] [TRACE] default - Sending method "result_general_account-authorize" results to Lt1A5W6-r_Cuhf0nAAAE:
+[2017-10-23 18:53:18.487] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:54:22.027] [INFO] default - User Lt1A5W6-r_Cuhf0nAAAE disconnected.
+[2017-10-23 18:54:22.308] [INFO] default - User 3XWA0QPOZ5eLMlnrAAAF, IP: ::1 connected.
+[2017-10-23 18:54:27.840] [INFO] default - User 3XWA0QPOZ5eLMlnrAAAF get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:54:27.901] [TRACE] default - Sending method "result_general_account-authorize" results to 3XWA0QPOZ5eLMlnrAAAF:
+[2017-10-23 18:54:27.902] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:54:42.375] [INFO] default - User 3XWA0QPOZ5eLMlnrAAAF disconnected.
+[2017-10-23 18:54:42.647] [INFO] default - User Yg3n8gakycAe5MVZAAAG, IP: ::1 connected.
+[2017-10-23 18:54:48.584] [INFO] default - User Yg3n8gakycAe5MVZAAAG get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:54:48.644] [TRACE] default - Sending method "result_general_account-authorize" results to Yg3n8gakycAe5MVZAAAG:
+[2017-10-23 18:54:48.645] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:55:29.325] [INFO] default - User Yg3n8gakycAe5MVZAAAG disconnected.
+[2017-10-23 18:55:29.611] [INFO] default - User c7n3kRWSPypPqi1EAAAH, IP: ::1 connected.
+[2017-10-23 18:55:35.718] [INFO] default - User c7n3kRWSPypPqi1EAAAH get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:55:35.778] [TRACE] default - Sending method "result_general_account-authorize" results to c7n3kRWSPypPqi1EAAAH:
+[2017-10-23 18:55:35.779] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:56:19.835] [INFO] default - User c7n3kRWSPypPqi1EAAAH disconnected.
+[2017-10-23 18:56:20.135] [INFO] default - User qPhRUhn__hP_XnJcAAAI, IP: ::1 connected.
+[2017-10-23 18:56:26.203] [INFO] default - User qPhRUhn__hP_XnJcAAAI get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:56:26.262] [TRACE] default - Sending method "result_general_account-authorize" results to qPhRUhn__hP_XnJcAAAI:
+[2017-10-23 18:56:26.263] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 18:56:38.682] [INFO] default - User qPhRUhn__hP_XnJcAAAI get method "general_account-deauthorize"
+[2017-10-23 18:56:46.500] [INFO] default - User qPhRUhn__hP_XnJcAAAI get method "account-authorize" (login: admin, password: root)
+[2017-10-23 18:56:46.561] [TRACE] default - Sending method "result_general_account-authorize" results to qPhRUhn__hP_XnJcAAAI:
+[2017-10-23 18:56:46.562] [TRACE] default - { error: null, data: { result_authorize: true } }
