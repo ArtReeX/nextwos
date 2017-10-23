@@ -13,7 +13,7 @@
 <link rel="stylesheet" type="text/css" href="core/include/style/css/pages/authorization.css">
 <link rel="stylesheet" type="text/css" href="core/include/style/css/pages/registration.css">
 <link rel="stylesheet" type="text/css" href="core/include/style/css/pages/desktop.css">
-<link rel="stylesheet" type="text/css" href="core/include/style/css/pages/report.css">
+<link rel="stylesheet" type="text/css" href="core/include/style/css/pages/bug.css">
 
 <!-- СТРАНИЦЫ ПРИЛОЖЕНИЙ -->
 

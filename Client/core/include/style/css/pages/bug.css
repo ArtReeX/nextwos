@@ -3,14 +3,14 @@
 
 /* уведомления */
 
-#report-info-success {
+#bug-info-success {
     display: none;
 }
 
-#report-info-danger {
+#bug-info-danger {
     display: none;
 }
 
-#report-info-warning {
+#bug-info-warning {
     display: none;
 }

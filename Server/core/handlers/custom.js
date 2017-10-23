@@ -1,4 +1,3 @@
 /*-------------- ЭКСПОРТ ПОЛЬЗОВАТЕЛЬСКИХ МЕТОДОВ ------------------*/
-/*globals module,require*/
-module.exports.account = require('./custom/account');
-module.exports.report = require('./custom/report');
+module.exports.generals = require('./custom/generals');
+module.exports.apps = require('./custom/apps');

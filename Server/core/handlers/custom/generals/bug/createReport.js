@@ -1,6 +1,6 @@
 /*----------- ЗАГОЛОВКИ -----------*/
 /*global require*/
-var log_module = require('../../../log');
+var log_module = require('../../../../log');
 
 
 /*----------------- LOG ------------------*/
@@ -10,18 +10,22 @@ var log = log_module.Log();
 /*----------------------------------------*/
 
 // МЕТОД СОЗДАНИЯ ОТЧЁТА ОБ ОШИБКЕ
-function create(mysql, data, callback) {
-    'use strict';
-    
+function createReport(mysql, data, callback) {
+
     // стандартные проверки
-    if (String(data.topic) === "" || String(data.problem) === "" || String(data.identificator) === "") {
-        
+    if (String(data.category_id) === "" || String(data.error) === "" || String(data.identificator) === "") {
+
         // возврат результата
-        callback({ "error" : { "type" : "empty_parameter" }, "data" : null });
-        
+        callback({
+            "error": {
+                "type": "empty_parameter"
+            },
+            "data": null
+        });
+
         return;
     }
-    
+
     // обращение к БД
     mysql.getConnection(function (error, conn) {
 
@@ -30,23 +34,33 @@ function create(mysql, data, callback) {
         } else {
 
             // запись данных в БД
-            conn.query("INSERT INTO reports (reports.topic, reports.problem, reports.user_id) VALUES ('" + String(data.topic) + "', '" + String(data.problem) + "', '" + Number(data.identificator) + "')", function (error) {
+            conn.query("INSERT INTO general_bugs (general_bugs.category_id, general_bugs.error, general_bugs.account_id) VALUES ('" + Number(data.category_id) + "', '" + String(data.error) + "', '" + Number(data.identificator) + "')", function (error) {
 
                 if (error) {
 
                     // отладка
                     log.debug("Error MySQL connection: " + error);
-                    
+
                     // возврат результата
-                    callback({ "error" : { "type" : "database" }, "data" : null });
-                    
+                    callback({
+                        "error": {
+                            "type": "database"
+                        },
+                        "data": null
+                    });
+
                     // закрытие запроса
                     conn.release();
 
                 } else {
 
                     // возврат результата
-                    callback({ "error" : null, "data" : { "result_create" : true } });
+                    callback({
+                        "error": null,
+                        "data": {
+                            "result_create": true
+                        }
+                    });
 
                     // закрытие запроса
                     conn.release();
@@ -63,4 +77,4 @@ function create(mysql, data, callback) {
 
 /*-------------- ЭКСПОРТ ------------------*/
 /*globals module */
-module.exports = create;
+module.exports = createReport;

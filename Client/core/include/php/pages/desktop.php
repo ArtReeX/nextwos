@@ -12,8 +12,8 @@
                 <i class="fa fa-power-off fa-2x" aria-hidden="true"></i>
             </div>
 
-            <!-- кнопка поддержки пользователя панели страницы -->
-            <div class="ml-2 col-1" id="desktop-panel-button-report" data-toggle="tooltip" data-placement="bottom" title="Сообщить о проблеме">
+            <!-- кнопка сообщения об ошибке пользователя панели страницы -->
+            <div class="ml-2 col-1" id="desktop-panel-button-report" data-toggle="tooltip" data-placement="bottom" title="Сообщить об ошибке">
                 <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
             </div>
 

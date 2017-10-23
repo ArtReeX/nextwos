@@ -11,7 +11,7 @@ function showPageReport() {
             // отправка запроса на получение содержимого страницы
             $.ajax({
 
-                url: "/core/include/php/pages/report.php",
+                url: "/core/include/php/pages/bug.php",
 
                 dataType: "html",
 
@@ -21,7 +21,7 @@ function showPageReport() {
 
                     // идентификация страницы
                     window.identifierPrevious = window.identifier;
-                    window.identifier = "report";
+                    window.identifier = "bug";
 
                     // скрытие страницы
                     $("#loaded").hide();
@@ -33,7 +33,7 @@ function showPageReport() {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/pages/report.js");
+                    $.getScript("/core/include/js/handlers/pages/bug.js");
 
                 },
 

@@ -9,9 +9,8 @@ var log = log_module.Log();
 
 
 /*----------------------------------------*/
-// МЕТОД СОЗДАНИЯ НЕСУЩЕСТВУЮЩИХ ТАБЛИЦ В БД
-function restore(mysql, callback) {
-    'use strict';
+// МЕТОД ЗАПОЛНЕНИЯ СТАНДАРТНЫМИ ДАННЫМИ СОЗДАНЫХ ТАБЛИЦ В БД
+function fill(mysql, callback) {
 
     // обращение к БД
     mysql.getConnection(function (error, conn) {
@@ -19,45 +18,53 @@ function restore(mysql, callback) {
         if (error) {
             log.fatal("Error MySQL connection: " + error);
         } else {
-            
-            async_module.parallel([
 
-                // создание таблицы пользователей
+            async_module.series([
+
+                // * СТАНДАРТНЫЕ
+
+                // + заполение таблиц отчётов о проблемах
+
+                // - категории отчётов
                 function (done) {
-                    
-                    conn.query("CREATE TABLE IF NOT EXISTS users(id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, username TEXT NOT NULL, password VARCHAR(255) NOT NULL, password_salt VARCHAR(100) NOT NULL, first_name VARCHAR(100) NOT NULL, second_name VARCHAR(100) NOT NULL)", function (error, result) { // eslint-disable-line no-unused-vars
+
+                    conn.query("INSERT IGNORE INTO general_bugs_categories (name) VALUES ('Функционал сайта'), ('Дизайн сайта'), ('Ошибки языка')", function (error, result) {
 
                         if (error) {
                             log.debug("Error MySQL connection: " + error);
-                            
+
                             done();
                         } else {
                             done();
                         }
 
                     });
-                    
+
                 },
 
-                // создание таблицы отчётов
+                // * ПРИЛОЖЕНИЯ
+
+                // + заполнение таблиц для приложения "passKeeper"
+
+                // - категории паролей
                 function (done) {
-                    
-                    conn.query("CREATE TABLE IF NOT EXISTS reports(id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, topic VARCHAR(100) NOT NULL, problem TEXT NOT NULL, user_id INT NOT NULL, time timestamp DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY (user_id) REFERENCES users(id))", function (error, result) { // eslint-disable-line no-unused-vars
+
+                    conn.query("INSERT IGNORE INTO app_passKeeper_categories (name) VALUES ('Магазины'), ('Мессенджеры'), ('Игры'), ('Медиа'), ('Безопасность'), ('Системы'), ('Почты'), ('Разное')", function (error, result) {
 
                         if (error) {
                             log.debug("Error MySQL connection: " + error);
-                            
+
                             done();
                         } else {
                             done();
                         }
 
                     });
-                    
+
                 }
 
             ], callback);
-                    
+
         }
 
     });
@@ -67,4 +74,4 @@ function restore(mysql, callback) {
 
 /*-------------- ЭКСПОРТ ------------------*/
 /*globals module */
-module.exports = restore;
+module.exports = fill;

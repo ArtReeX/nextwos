@@ -8,49 +8,51 @@ var log4js_module = require('log4js');
 var Log = function () {
     'use strict';
 
-	// задание параметров логирования
-	log4js_module.configure(
-        
+    // задание параметров логирования
+    log4js_module.configure(
+
         {
             "appenders": {
-                
-                "console": { type: "console" },
-                
+
+                "console": {
+                    type: "console"
+                },
+
                 "cheeseLogs": {
-                    "type" : "file",
-                    "filename" : config_module.log.file,
-                    "maxLogSize" : config_module.log.file_size,
-                    "backups" : config_module.log.file_backup
+                    "type": "file",
+                    "filename": config_module.log.file,
+                    "maxLogSize": config_module.log.file_size,
+                    "backups": config_module.log.file_backup
                 }
-                
+
             },
-            
+
             categories: {
-                
+
                 "cheese": {
                     "appenders": ["cheeseLogs"],
                     "level": config_module.log.level
                 },
-                
+
                 "another": {
                     "appenders": ["console"],
                     "level": config_module.log.level
                 },
-                
+
                 "default": {
                     "appenders": ["console", "cheeseLogs"],
                     "level": config_module.log.level
                 }
-                
+
             }
-            
+
         }
     );
 
-	// создание логера
-	var logger = log4js_module.getLogger();
+    // создание логера
+    var logger = log4js_module.getLogger();
 
-	return logger;
+    return logger;
 };
 
 

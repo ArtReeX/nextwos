@@ -12,7 +12,7 @@
 <script src="core/include/js/preloaders/pages/authorization.js"></script>
 <script src="core/include/js/preloaders/pages/registration.js"></script>
 <script src="core/include/js/preloaders/pages/desktop.js"></script>
-<script src="core/include/js/preloaders/pages/report.js"></script>
+<script src="core/include/js/preloaders/pages/bug.js"></script>
 
 <!-- СТРАНИЦЫ ПРИЛОЖЕНИЙ -->
 
