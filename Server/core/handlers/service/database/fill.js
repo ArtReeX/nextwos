@@ -12,6 +12,8 @@ var log = log_module.Log();
 // МЕТОД ЗАПОЛНЕНИЯ СТАНДАРТНЫМИ ДАННЫМИ СОЗДАНЫХ ТАБЛИЦ В БД
 function fill(mysql, callback) {
 
+    'use strict';
+    
     // обращение к БД
     mysql.getConnection(function (error, conn) {
 
@@ -28,7 +30,7 @@ function fill(mysql, callback) {
                 // - категории отчётов
                 function (done) {
 
-                    conn.query("INSERT IGNORE INTO general_bugs_categories (name) VALUES ('Функционал сайта'), ('Дизайн сайта'), ('Ошибки языка')", function (error, result) {
+                    conn.query("INSERT IGNORE INTO general_bugs_categories (name) VALUES ('Функционал сайта'), ('Дизайн сайта'), ('Ошибки языка')", function (error) {
 
                         if (error) {
                             log.debug("Error MySQL connection: " + error);
@@ -49,7 +51,7 @@ function fill(mysql, callback) {
                 // - категории паролей
                 function (done) {
 
-                    conn.query("INSERT IGNORE INTO app_passKeeper_categories (name) VALUES ('Магазины'), ('Мессенджеры'), ('Игры'), ('Медиа'), ('Безопасность'), ('Системы'), ('Почты'), ('Разное')", function (error, result) {
+                    conn.query("INSERT IGNORE INTO app_passKeeper_categories (name) VALUES ('Магазины'), ('Мессенджеры'), ('Игры'), ('Медиа'), ('Безопасность'), ('Системы'), ('Почты'), ('Разное')", function (error) {
 
                         if (error) {
                             log.debug("Error MySQL connection: " + error);

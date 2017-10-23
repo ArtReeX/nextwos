@@ -22,7 +22,7 @@ var WS = function (callback) {
     var mysql_client = mysql_module.createPool(config_module.mysql);
 
     // проверка подключения MySQL
-    mysql_client.getConnection(function (error, conn) {
+    mysql_client.getConnection(function (error) {
 
         if (error) {
 
@@ -36,29 +36,29 @@ var WS = function (callback) {
             /***************************** ПРОВЕРКА ЦЕЛОСТНОСТИ БД *****************************/
             async_module.series([
 
-                    function (done) {
+                function (done) {
 
-                        // если БД повреждена, выполняем восстановление структуры БД в случае отсутствия таблиц
-                        handlers_module.service.database.create(mysql_client, function () {
+                    // если БД повреждена, выполняем восстановление структуры БД в случае отсутствия таблиц
+                    handlers_module.service.database.create(mysql_client, function () {
 
-                            done();
+                        done();
 
-                        });
+                    });
 
-                    },
+                },
 
-                    function (done) {
+                function (done) {
 
-                        // если БД повреждена, выполняем восстановление стандатрных записей БД
-                        handlers_module.service.database.fill(mysql_client, function () {
+                    // если БД повреждена, выполняем восстановление стандатрных записей БД
+                    handlers_module.service.database.fill(mysql_client, function () {
 
-                            done();
+                        done();
 
-                        });
+                    });
 
-                    }
+                }
 
-                ],
+            ],
 
                 function () {
 

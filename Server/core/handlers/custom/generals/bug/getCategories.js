@@ -11,7 +11,9 @@ var log = log_module.Log();
 
 // МЕТОД ОТПРАВКИ КАТЕГОРИЙ ОТЧЁТА ОБ ОШИБКЕ
 function getCategories(mysql, callback) {
-
+    
+    'use strict';
+    
     // обращение к БД
     mysql.getConnection(function (error, conn) {
 
@@ -40,7 +42,7 @@ function getCategories(mysql, callback) {
 
                 } else {
 
-                    if (Boolean(result.length)) {
+                    if (result.length) {
 
                         // возврат результата
                         callback({

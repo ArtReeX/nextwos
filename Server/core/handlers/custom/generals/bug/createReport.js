@@ -12,6 +12,8 @@ var log = log_module.Log();
 // МЕТОД СОЗДАНИЯ ОТЧЁТА ОБ ОШИБКЕ
 function createReport(mysql, data, callback) {
 
+    'use strict';
+
     // стандартные проверки
     if (String(data.category_id) === "" || String(data.error) === "" || String(data.identificator) === "") {
 

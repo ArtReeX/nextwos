@@ -9,7 +9,7 @@ var log = log_module.Log();
 
 
 /*-------------- СОЗДАНИЕ WS-СЕРВЕРА ------------------*/
-var ws_server = ws_module.WS(function (error) { // eslint-disable-line no-unused-vars
+ws_module.WS(function (error) {
     'use strict';
 
     if (!error) {

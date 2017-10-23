@@ -1,1 +1,16 @@
-﻿
+﻿[2017-10-23 03:27:10.780] [DEBUG] default - Database successfully verified.
+[2017-10-23 03:27:10.793] [DEBUG] default - The server started on port 8181.
+[2017-10-23 03:27:10.794] [INFO] default - The server part was successfully started.
+[2017-10-23 03:27:18.890] [INFO] default - User 6AuTZrk3CP9KQiwLAAAA, IP: ::1 connected.
+[2017-10-23 03:27:23.887] [INFO] default - User 6AuTZrk3CP9KQiwLAAAA get method "authorizeUser" (login: admin, password: root)
+[2017-10-23 03:27:23.951] [TRACE] default - Sending method "resultAuthorizeUser" results to 6AuTZrk3CP9KQiwLAAAA:
+[2017-10-23 03:27:23.952] [TRACE] default - { error: null, data: { result_authorize: true } }
+[2017-10-23 03:27:26.143] [INFO] default - User 6AuTZrk3CP9KQiwLAAAA get method "getReportBugCategories"
+[2017-10-23 03:27:26.147] [TRACE] default - Sending method "resultGetReportBugCategories" results to 6AuTZrk3CP9KQiwLAAAA:
+[2017-10-23 03:27:26.147] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 03:27:30.053] [INFO] default - User 6AuTZrk3CP9KQiwLAAAA get method "getReportBugCategories"
+[2017-10-23 03:27:30.054] [TRACE] default - Sending method "resultGetReportBugCategories" results to 6AuTZrk3CP9KQiwLAAAA:
+[2017-10-23 03:27:30.055] [TRACE] default - { error: null,
+  data: { categories: [ [Object], [Object], [Object] ] } }
+[2017-10-23 03:27:32.378] [INFO] default - User 6AuTZrk3CP9KQiwLAAAA disconnected.
