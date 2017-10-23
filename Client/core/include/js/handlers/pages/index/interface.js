@@ -1,31 +1,9 @@
+/************************ ОБРАБОТЧИКИ ИНТЕРФЕЙСА ************************/
+/*globals $, document, window, showPageAuthorization, showPageRegistration*/
+
 $(document).ready(function () {
 
-    // * СЕРВЕР
-
-    // подключение к серверу, если его нет
-
-    if (typeof window.socket === "undefined") {
-        window.socket = io.connect('ws://localhost:8181', {
-            reconnection: true
-        });
-    }
-
-    // обработчик отсутствия соединения с сервером
-    window.socket.on('connect_error', function () {
-
-        // проверка соответствие обработчика со страницей
-        if (window.identifier !== "error") {
-
-            // выполняем редирект на страницу ошибок
-            showPageError("connect_server");
-
-        }
-
-    });
-
-
-    // * ИНТЕРФЕЙС
-
+    'use strict';
 
     // обработчик нажатия кнопки входа
     $("#loaded").off("click", "#index-button-login").on("click", "#index-button-login", function () {

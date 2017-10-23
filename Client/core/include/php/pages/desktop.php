@@ -13,7 +13,7 @@
             </div>
 
             <!-- кнопка сообщения об ошибке пользователя панели страницы -->
-            <div class="ml-2 col-1" id="desktop-panel-button-report" data-toggle="tooltip" data-placement="bottom" title="Сообщить об ошибке">
+            <div class="ml-2 col-1" id="desktop-panel-button-bug" data-toggle="tooltip" data-placement="bottom" title="Сообщить об ошибке">
                 <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
             </div>
 

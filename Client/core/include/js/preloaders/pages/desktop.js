@@ -1,5 +1,10 @@
-function showPageDesktop() {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError, setTimeout*/
 
+function showPageDesktop() { // eslint-disable-line no-unused-vars
+
+    'use strict';
+    
     $(document).ready(function () {
 
         // показ прелоадера
@@ -33,7 +38,9 @@ function showPageDesktop() {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/pages/desktop.js");
+                    $.getScript("/core/include/js/handlers/pages/desktop/network.js");
+                    $.getScript("/core/include/js/handlers/pages/desktop/interface.js");
+                    $.getScript("/core/include/js/handlers/pages/desktop/launching.js");
 
                 },
 

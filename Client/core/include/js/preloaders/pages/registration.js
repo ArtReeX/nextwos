@@ -1,5 +1,10 @@
-function showPageRegistration() {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError, setTimeout*/
 
+function showPageRegistration() { // eslint-disable-line no-unused-vars
+    
+    'use strict';
+    
     $(document).ready(function () {
 
         // показ прелоадера
@@ -33,7 +38,9 @@ function showPageRegistration() {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/pages/registration.js");
+                    $.getScript("/core/include/js/handlers/pages/registration/network.js");
+                    $.getScript("/core/include/js/handlers/pages/registration/interface.js");
+                    $.getScript("/core/include/js/handlers/pages/registration/launching.js");
 
                 },
 

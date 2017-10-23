@@ -1,6 +1,11 @@
+/************************ ОБРАБОТЧИКИ ЗАПУСКА ************************/
+/*globals $, document, window, showPageIndex, setTimeout*/
+
 $(document).ready(function () {
 
-    // определение типа ошибки
+    'use strict';
+    
+    // - определение типа ошибки
     if (window.errorType === "connect_server") {
 
         /*globals $*/
@@ -21,9 +26,8 @@ $(document).ready(function () {
         });
 
         return;
-    }
-
-    if (window.errorType === "page_exist") {
+        
+    } else if (window.errorType === "page_exist") {
 
         /*globals $*/
         $('#error-head b').text("Страница не найдена");

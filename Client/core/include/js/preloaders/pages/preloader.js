@@ -1,5 +1,10 @@
-function showPagePreloader(errorType) {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError*/
 
+function showPagePreloader(errorType) { // eslint-disable-line no-unused-vars
+
+    'use strict';
+    
     $(document).ready(function () {
 
         // отправка запроса на получение содержимого страницы

@@ -1,5 +1,10 @@
-function showPageIndex() {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError, setTimeout*/
 
+function showPageIndex() { // eslint-disable-line no-unused-vars
+
+    'use strict';
+    
     $(document).ready(function () {
 
         // показ прелоадера
@@ -33,7 +38,9 @@ function showPageIndex() {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/pages/index.js");
+                    $.getScript("/core/include/js/handlers/pages/index/network.js");
+                    $.getScript("/core/include/js/handlers/pages/index/interface.js");
+                    $.getScript("/core/include/js/handlers/pages/index/launching.js");
 
                 },
 

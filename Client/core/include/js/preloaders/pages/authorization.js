@@ -1,5 +1,10 @@
-function showPageAuthorization() {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError, setTimeout*/
 
+function showPageAuthorization() { // eslint-disable-line no-unused-vars
+
+    'use strict';
+    
     $(document).ready(function () {
 
         // показ прелоадера
@@ -33,7 +38,9 @@ function showPageAuthorization() {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/pages/authorization.js");
+                    $.getScript("/core/include/js/handlers/pages/authorization/network.js");
+                    $.getScript("/core/include/js/handlers/pages/authorization/interface.js");
+                    $.getScript("/core/include/js/handlers/pages/authorization/launching.js");
 
                 },
 

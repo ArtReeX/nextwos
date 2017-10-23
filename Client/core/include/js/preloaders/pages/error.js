@@ -1,5 +1,10 @@
-function showPageError(errorType) {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError, setTimeout*/
 
+function showPageError(errorType) { // eslint-disable-line no-unused-vars
+
+    'use strict';
+    
     $(document).ready(function () {
 
         // показ прелоадера
@@ -36,7 +41,9 @@ function showPageError(errorType) {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/pages/error.js");
+                    $.getScript("/core/include/js/handlers/pages/error/network.js");
+                    $.getScript("/core/include/js/handlers/pages/error/interface.js");
+                    $.getScript("/core/include/js/handlers/pages/error/launching.js");
 
                 },
 

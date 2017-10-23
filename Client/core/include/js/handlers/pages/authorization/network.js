@@ -1,33 +1,11 @@
+/************************ ОБРАБОТЧИКИ СООБЩЕНИЙ ОТ СЕРВЕРА ************************/
+/*globals $, document, window, showPageDesktop, setTimeout*/
+
 $(document).ready(function () {
+    
+    'use strict';
 
-    // * ИНТЕРФЕЙС
-
-
-    // обработчик нажатия кнопки входа
-    $("#loaded").off("click", "#authorization-button-auth").on("click", "#authorization-button-auth", function () {
-
-        // проверка соответствие обработчика со страницей
-        if (window.identifier === "authorization") {
-
-            // отправка запроса на авторизацию
-            window.socket.emit("authorizeUser", String($.trim($("#username").val())), String($.trim($("#password").val())));
-
-        }
-
-    });
-
-    // обработчик нажатия кнопки возврата
-    $("#loaded").off("click", "#authorization-panel-button-back").on("click", "#authorization-panel-button-back", function () {
-
-        // редирект на предыдущую страницу
-        showPageIndex();
-
-    });
-
-
-    // * СЕРВЕР
-
-    // установка обработчика получения результата регистрации
+    // - установка обработчика получения результата регистрации
     window.socket.on("resultAuthorizeUser", function (result) {
 
         // проверка соответствие обработчика со страницей

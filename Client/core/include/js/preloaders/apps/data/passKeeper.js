@@ -1,5 +1,10 @@
-function showPageAppPassKeeper() {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError, setTimeout*/
 
+function showPageAppPassKeeper() { // eslint-disable-line no-unused-vars
+
+    'use strict';
+    
     $(document).ready(function () {
 
         // показ прелоадера
@@ -33,7 +38,9 @@ function showPageAppPassKeeper() {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/apps/data/passKeeper.js");
+                    $.getScript("/core/include/js/handlers/apps/data/passKeeper/network.js");
+                    $.getScript("/core/include/js/handlers/apps/data/passKeeper/interface.js");
+                    $.getScript("/core/include/js/handlers/apps/data/passKeeper/launching.js");
 
                 },
 

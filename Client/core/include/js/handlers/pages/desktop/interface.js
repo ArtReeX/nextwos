@@ -1,8 +1,13 @@
+/************************ ОБРАБОТЧИКИ ИНТЕРФЕЙСА ************************/
+/*globals $, document, window, showPageAuthorization, showPageBug, showPageAppPassKeeper*/
+
 $(document).ready(function () {
 
-    // ПАНЕЛЬ
+    'use strict';
+    
+    // * ПАНЕЛЬ
 
-    // запуск обновления времени на панеле каждую секунду
+    // - запуск обновления времени на панеле каждую секунду
     window.setInterval(function () {
 
         // получение времени
@@ -13,7 +18,7 @@ $(document).ready(function () {
 
     }, 1000);
 
-    // обработчик нажатия иконки деавторизации пользователя
+    // - обработчик нажатия иконки деавторизации пользователя
     $("#loaded").off("click", "#desktop-panel-button-unlogin").on("click", "#desktop-panel-button-unlogin", function () {
 
         // проверка соответствие обработчика со страницей
@@ -29,23 +34,23 @@ $(document).ready(function () {
 
     });
 
-    // обработчик нажатия иконки поддержки пользователя
-    $("#loaded").off("click", "#desktop-panel-button-report").on("click", "#desktop-panel-button-report", function () {
+    // - обработчик нажатия иконки поддержки пользователя
+    $("#loaded").off("click", "#desktop-panel-button-bug").on("click", "#desktop-panel-button-bug", function () {
 
         // проверка соответствие обработчика со страницей
         if (window.identifier === "desktop") {
 
             // редирект на страницу поддержки
-            showPageReport();
+            showPageBug();
 
         }
 
     });
 
 
-    // ПРИЛОЖЕНИЯ
+    // * ЭЛЕМЕНТЫ
 
-    // обработчик нажатия иконки менеджера паролей
+    // - обработчик нажатия иконки менеджера паролей
     $("#loaded").off("click", "#desktop-line-button-app-passKeeper").on("click", "#desktop-line-button-app-passKeeper", function () {
 
         // проверка соответствие обработчика со страницей

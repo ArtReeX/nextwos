@@ -1,5 +1,10 @@
-function showPageReport() {
+/************************ ПРЕДЗАГРУЗЧИК ************************/
+/*globals $, document, window, showPagePreloader, showPageError, setTimeout*/
 
+function showPageBug() { // eslint-disable-line no-unused-vars
+
+    'use strict';
+    
     $(document).ready(function () {
 
         // показ прелоадера
@@ -33,7 +38,9 @@ function showPageReport() {
                     $("#loaded").show();
 
                     // загрузка JS-содержимого страницы
-                    $.getScript("/core/include/js/handlers/pages/bug.js");
+                    $.getScript("/core/include/js/handlers/pages/bug/network.js");
+                    $.getScript("/core/include/js/handlers/pages/bug/interface.js");
+                    $.getScript("/core/include/js/handlers/pages/bug/launching.js");
 
                 },
 

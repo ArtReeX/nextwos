@@ -1,8 +1,13 @@
+/************************ ОБРАБОТЧИКИ ИНТЕРФЕЙСА ************************/
+/*globals $, document, window, showPageDesktop*/
+
 $(document).ready(function () {
+    
+    'use strict';
+    
+    // * ПАНЕЛЬ
 
-    // ПАНЕЛЬ
-
-    // запуск обновления времени на панеле каждую секунду
+    // - запуск обновления времени на панеле каждую секунду
     window.setInterval(function () {
 
         // получение времени
@@ -13,7 +18,7 @@ $(document).ready(function () {
 
     }, 1000);
 
-    // обработчик нажатия иконки деавторизации пользователя
+    // - обработчик нажатия иконки деавторизации пользователя
     $("#loaded").off("click", "#app-passKeeper-panel-button-desktop").on("click", "#app-passKeeper-panel-button-desktop", function () {
 
         // переход на рабочий стол
