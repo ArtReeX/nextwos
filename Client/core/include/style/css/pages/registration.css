@@ -1,15 +1,6 @@
 /************************ СТРАНИЦА ВХОДА ************************/
 
 
-/* лого */
-
-#registration-logo img {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-}
-
-
 /* уведомления */
 
 #registration-info-success {
