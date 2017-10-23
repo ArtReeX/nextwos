@@ -100,7 +100,7 @@ var WS = function (callback) {
 
                                 var session = {
 
-                                    user: {
+                                    account: {
 
                                         identificator: null
 
@@ -120,7 +120,7 @@ var WS = function (callback) {
                                     // запись сообщения клиента в отладку
                                     log.info("User " + socket.id + " get method \"authorizeUser\" (login: " + String(username) + ", password: " + String(password) + ")");
 
-                                    handlers_module.custom.generals.account.authorize(mysql_client, {
+                                    handlers_module.api.generals.account.authorize(mysql_client, {
                                         "username": String(username),
                                         "password": String(password)
                                     }, function (result) {
@@ -150,13 +150,13 @@ var WS = function (callback) {
                                             // ОБРАБОТКА ОТВЕТОВ
 
                                             // запись идентификатора пользователя для работы в сессии
-                                            session.user.identificator = Number(result.data.identificator);
+                                            session.account.identificator = Number(result.data.identificator);
 
                                             // отключение от комнaты со всеми клиентами для данного пользователя
-                                            socket.leave(session.user.identificator);
+                                            socket.leave(session.account.identificator);
 
                                             // подключение к комнате со всеми клиентами для данного пользователя
-                                            socket.join(session.user.identificator);
+                                            socket.join(session.account.identificator);
 
                                             // отправка результата
                                             log.trace("Sending method \"resultAuthorizeUser\" results to " + socket.id + ":");
@@ -199,7 +199,7 @@ var WS = function (callback) {
                                     // запись сообщения клиента в отладку
                                     log.info("User " + socket.id + " get method \"registerUser\" (login: " + String(username) + ", password: " + String(password) + ", first_name: " + String(first_name) + ", second_name: " + String(second_name) + ")");
 
-                                    handlers_module.custom.generals.account.register(mysql_client, {
+                                    handlers_module.api.generals.account.register(mysql_client, {
                                         "username": String(username),
                                         "password": String(password),
                                         "first_name": String(first_name),
@@ -260,10 +260,10 @@ var WS = function (callback) {
                                     // запись сообщения клиента в отладку
                                     log.info("User " + socket.id + " get method \"createReportBug\" (category_id: " + Number(category_id) + ", error: " + String(error) + ")");
 
-                                    handlers_module.custom.generals.bug.createReport(mysql_client, {
+                                    handlers_module.api.generals.bug.createReport(mysql_client, {
                                         "category_id": Number(category_id),
                                         "error": String(error),
-                                        "identificator": Number(session.user.identificator)
+                                        "identificator": Number(session.account.identificator)
                                     }, function (result) {
 
                                         if (result.error) {
@@ -317,7 +317,7 @@ var WS = function (callback) {
                                     // запись сообщения клиента в отладку
                                     log.info("User " + socket.id + " get method \"getReportBugCategories\"");
 
-                                    handlers_module.custom.generals.bug.getCategories(mysql_client,
+                                    handlers_module.api.generals.bug.getCategories(mysql_client,
                                         function (result) {
 
                                             if (result.error) {
@@ -372,7 +372,7 @@ var WS = function (callback) {
                                 socket.on('disconnect', function () {
 
                                     // отключение от комнaты со всеми клиентами для данного пользователя
-                                    socket.leave(session.user.identificator);
+                                    socket.leave(session.account.identificator);
 
                                     // логгирование
                                     log.info("User " + socket.id + " disconnected.");
