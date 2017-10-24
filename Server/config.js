@@ -2,7 +2,7 @@
 var config = {
 
     // параметры MySQL
-    "mysql": {
+    "database": {
 
         "host": "localhost",
         "port": "3306",
