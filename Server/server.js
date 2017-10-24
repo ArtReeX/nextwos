@@ -17,7 +17,7 @@ var log, database;
 /*-------------- MYSQL ------------------*/
 async_module.series([
     
-    // ЛОГ
+    // лог
     function (done) {
         
         'use strict';
@@ -33,7 +33,7 @@ async_module.series([
         
     },
     
-    // БАЗА ДАННЫХ
+    // база данных
     function (done) {
         
         'use strict';
@@ -44,6 +44,19 @@ async_module.series([
                 database = database_client;
                 done();
             }
+            
+        });
+        
+    },
+    
+    // проверка и восстановления базы данных
+    function (done) {
+        
+        'use strict';
+        
+        service_module.database.restoring(database, async_module, function (error) {
+            
+            if (error) { done(error); } else { done(); }
             
         });
         

@@ -2,5 +2,5 @@
 
 /*-------------- ЭКСПОРТ СЕРВИСНЫХ МЕТОДОВ ВОССТАНОВЛЕНИЯ БАЗЫ ДАННЫХ ------------------*/
 
-module.exports.reconstruction = require('./methods/reconstruction');
-module.exports.filling = require('./methods/filling');
+module.exports.generals = require('./methods/generals');
+module.exports.apps = require('./methods/apps');

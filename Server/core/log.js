@@ -1,10 +1,11 @@
-/*globals require*/
+/*globals require, module*/
 
 /*----------- ЗАГОЛОВКИ -----------*/
 var log4js_module = require('log4js');
 
+
 /*---------------------------- LOG -------------------------------*/
-var create = function (config, callback) {
+module.exports.create = function (config, callback) {
     
     'use strict';
 
@@ -56,8 +57,3 @@ var create = function (config, callback) {
     callback(null, logger);
     
 };
-
-
-/*-------------- ЭКСПОРТ ------------------*/
-/*globals module */
-module.exports.create = create;

@@ -1,11 +1,11 @@
-/*globals require*/
+/*globals require, module*/
 
 /*----------- ЗАГОЛОВКИ -----------*/
 var mysql_module = require('mysql');
 
 
 /*---------------------------- MYSQL -------------------------------*/
-var create = function (config, log, callback) {
+module.exports.create = function (config, log, callback) {
     
     'use strict';
 
@@ -30,8 +30,3 @@ var create = function (config, log, callback) {
     });
     
 };
-
-
-/*-------------- ЭКСПОРТ ------------------*/
-/*globals module */
-module.exports.create = create;

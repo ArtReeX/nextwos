@@ -84,3 +84,41 @@
 [2017-10-24 17:00:29.956] [INFO] default - Сервер успешно запущен.
 [2017-10-24 17:15:40.750] [INFO] default - Сервер успешно запущен.
 [2017-10-24 17:47:54.212] [INFO] default - Сервер успешно запущен.
+[2017-10-24 20:07:41.806] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:19:13.468] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:19:57.978] [ERROR] default - { Error: ER_NO_SUCH_TABLE: Table 'nextwos.general_accounts' doesn't exist
+    at Query.Sequence._packetToError (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\Connection.js:208:25)
+    at D:\Projects\nextWOS\Git\Server\core\services\database\restoring\methods\generals\methods\users.js:13:18
+    at Handshake.onConnect (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Handshake.Sequence.OkPacket (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Projects\nextWOS\Git\Server\node_modules\mysql\lib\Connection.js:103:28)
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: 'Table \'nextwos.general_accounts\' doesn\'t exist',
+  sqlState: '42S02',
+  index: 0,
+  sql: 'SELECT * FROM general_accounts LIMIT 1' }
+[2017-10-24 21:25:56.435] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:26:08.161] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:37:07.216] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:43:41.288] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:50:33.384] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:50:53.544] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:55:39.420] [INFO] default - Сервер успешно запущен.
+[2017-10-24 21:55:56.299] [INFO] default - Сервер успешно запущен.
