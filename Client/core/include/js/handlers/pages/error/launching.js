@@ -8,7 +8,6 @@ $(document).ready(function () {
     // - определение типа ошибки
     if (window.errorType === "connect_server") {
 
-        /*globals $*/
         $('#error-head b').text("Ошибка подключения к серверу");
         $('#error-subHead p').text("- вы будете перенаправлены на главную страницу когда соединение будет восстановлено");
 
@@ -29,7 +28,6 @@ $(document).ready(function () {
         
     } else if (window.errorType === "page_exist") {
 
-        /*globals $*/
         $('#error-head b').text("Страница не найдена");
         $('#error-subHead p').text("- вы будете перенаправлены на главную страницу через 10 секунд");
 
